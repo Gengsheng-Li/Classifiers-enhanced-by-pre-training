@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-04-11T14:08:11.933881",
+    "startedAt": "2024-04-11T14:08:09.868295",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\Projects\\CLIP\\train_from_scratch.py",
+    "codePathLocal": "train_from_scratch.py",
+    "codePath": "train_from_scratch.py",
+    "git": {
+        "remote": "https://github.com/openai/CLIP.git",
+        "commit": "a1d071733d7111c9c014f024669f959182114e33"
+    },
+    "email": "ligengchengucd@163.com",
+    "root": "E:/Projects/CLIP",
+    "host": "LAPTOP-G8U7O3JS",
+    "username": "RyukiRi",
+    "executable": "D:\\Anaconda\\envs\\pytorch0\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1506.0,
+        "min": 0.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1506.0,
+            "min": 0.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1907.7265586853027,
+            "used": 751.2552452087402
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 63.672584533691406
+    }
+}

@@ -1,0 +1,29 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                                                                                                | 0/60 [00:23<?, ?it/s]
+Traceback (most recent call last):
+  File "E:\Projects\CLIP\dataloader.py", line 90, in <module>
+    for images, labels in trainloader:
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\dataset.py", line 295, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\datasets\cifar.py", line 118, in __getitem__
+    img = self.transform(img)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\transforms\transforms.py", line 135, in __call__
+    return F.to_tensor(pic)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\transforms\functional.py", line 163, in to_tensor
+    img = torch.from_numpy(np.array(pic, mode_to_nptype.get(pic.mode, np.uint8), copy=True))
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\PIL\Image.py", line 688, in __array_interface__
+    new["data"] = self.tobytes()
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\PIL\Image.py", line 766, in tobytes
+    return b"".join(data)
+KeyboardInterrupt

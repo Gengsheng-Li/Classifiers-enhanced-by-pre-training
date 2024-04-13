@@ -1,0 +1,414 @@
+2024-04-08 10:55:29,807 INFO    StreamThr :26444 [internal.py:wandb_internal():86] W&B internal server running at pid: 26444, started at: 2024-04-08 10:55:29.807993
+2024-04-08 10:55:29,810 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status
+2024-04-08 10:55:29,812 INFO    WriterThread:26444 [datastore.py:open_for_write():87] open: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\run-xkwef2t9.wandb
+2024-04-08 10:55:29,813 DEBUG   SenderThread:26444 [sender.py:send():379] send: header
+2024-04-08 10:55:29,910 DEBUG   SenderThread:26444 [sender.py:send():379] send: run
+2024-04-08 10:55:30,688 INFO    SenderThread:26444 [dir_watcher.py:__init__():211] watching files in: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files
+2024-04-08 10:55:30,700 INFO    SenderThread:26444 [sender.py:_start_run_threads():1124] run started: xkwef2t9 with start time 1712544929.809049
+2024-04-08 10:55:30,695 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: check_version
+2024-04-08 10:55:30,701 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: check_version
+2024-04-08 10:55:30,988 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: run_start
+2024-04-08 10:55:31,048 DEBUG   HandlerThread:26444 [system_info.py:__init__():26] System info init
+2024-04-08 10:55:31,049 DEBUG   HandlerThread:26444 [system_info.py:__init__():41] System info init done
+2024-04-08 10:55:31,049 INFO    HandlerThread:26444 [system_monitor.py:start():194] Starting system monitor
+2024-04-08 10:55:31,049 INFO    SystemMonitor:26444 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-08 10:55:31,050 INFO    HandlerThread:26444 [system_monitor.py:probe():214] Collecting system info
+2024-04-08 10:55:31,057 INFO    SystemMonitor:26444 [interfaces.py:start():190] Started cpu monitoring
+2024-04-08 10:55:31,058 INFO    SystemMonitor:26444 [interfaces.py:start():190] Started disk monitoring
+2024-04-08 10:55:31,059 INFO    SystemMonitor:26444 [interfaces.py:start():190] Started gpu monitoring
+2024-04-08 10:55:31,068 INFO    SystemMonitor:26444 [interfaces.py:start():190] Started memory monitoring
+2024-04-08 10:55:31,082 INFO    SystemMonitor:26444 [interfaces.py:start():190] Started network monitoring
+2024-04-08 10:55:31,086 DEBUG   HandlerThread:26444 [system_info.py:probe():150] Probing system
+2024-04-08 10:55:31,087 DEBUG   HandlerThread:26444 [system_info.py:_probe_git():135] Probing git
+2024-04-08 10:55:31,164 DEBUG   HandlerThread:26444 [system_info.py:_probe_git():143] Probing git done
+2024-04-08 10:55:31,164 DEBUG   HandlerThread:26444 [system_info.py:probe():198] Probing system done
+2024-04-08 10:55:31,164 DEBUG   HandlerThread:26444 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.15', 'heartbeatAt': '2024-04-08T02:55:31.086461', 'startedAt': '2024-04-08T02:55:29.770595', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\Projects\\CLIP\\dataloader.py', 'codePathLocal': 'dataloader.py', 'codePath': 'dataloader.py', 'git': {'remote': 'https://github.com/openai/CLIP.git', 'commit': 'a1d071733d7111c9c014f024669f959182114e33'}, 'email': 'ligengchengucd@163.com', 'root': 'E:/Projects/CLIP', 'host': 'LAPTOP-G8U7O3JS', 'username': 'RyukiRi', 'executable': 'D:\\Anaconda\\envs\\pytorch0\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2300.0, 'min': 0.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 1506.0, 'min': 0.0, 'max': 2300.0}], 'disk': {'/': {'total': 1907.7265586853027, 'used': 751.2509574890137}}, 'gpu': 'NVIDIA GeForce RTX 3080 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3080 Ti Laptop GPU', 'memory_total': 17179869184}], 'memory': {'total': 63.672584533691406}}
+2024-04-08 10:55:31,164 INFO    HandlerThread:26444 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-08 10:55:31,164 INFO    HandlerThread:26444 [system_monitor.py:probe():227] Publishing system info
+2024-04-08 10:55:31,164 DEBUG   HandlerThread:26444 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-08 10:55:31,692 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\conda-environment.yaml
+2024-04-08 10:55:35,059 DEBUG   HandlerThread:26444 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-08 10:55:35,063 INFO    HandlerThread:26444 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-08 10:55:35,073 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:55:35,074 DEBUG   SenderThread:26444 [sender.py:send():379] send: files
+2024-04-08 10:55:35,074 INFO    SenderThread:26444 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-08 10:55:35,291 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-08 10:55:35,291 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: python_packages
+2024-04-08 10:55:35,292 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 10:55:35,292 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 10:55:35,294 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 10:55:35,692 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/xkwef2t9/wandb-metadata.json?Expires=1712631335&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=VSi8OwCHvU0FB0HYO%2Bo44FhHReZiYhN3cD6qEanpFfdAfCz%2ByfnlPOAIQxrLXuC%2B%2FJWb%2BqFKzvBWeh60eP7FVnttw62EJXCvhrAZc%2F5knyPg2%2F%2BFw136krNYlYCMjMbGg6Zzjm0R8tRx6tqafX3pEsfF%2F8jVqYjufhmrbXhUYLKTScda%2F56fwLMMc3LHwKzNVSg8ea5QPBZ%2FQUaEgcxERRDYcRyj9SktzY5%2FQjyNmIVvTC8MY3j5oy6%2BecWENeJ8Yx0bflrZ5VNoXprvaklQbtzwtt9mot7jJGGVuiEcRHzUtzAP7T6sNb65v8xqKAl8AG4AMXn7xlfoW7vWjiGfKA%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:55:35,695 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1428'}
+2024-04-08 10:55:35,695 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:55:35,713 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\conda-environment.yaml
+2024-04-08 10:55:35,714 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\wandb-metadata.json
+2024-04-08 10:55:35,714 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\requirements.txt
+2024-04-08 10:55:36,279 DEBUG   SenderThread:26444 [sender.py:send():379] send: telemetry
+2024-04-08 10:55:36,726 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\output.log
+2024-04-08 10:55:36,986 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/xkwef2t9/wandb-metadata.json?Expires=1712631335&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=VSi8OwCHvU0FB0HYO%2Bo44FhHReZiYhN3cD6qEanpFfdAfCz%2ByfnlPOAIQxrLXuC%2B%2FJWb%2BqFKzvBWeh60eP7FVnttw62EJXCvhrAZc%2F5knyPg2%2F%2BFw136krNYlYCMjMbGg6Zzjm0R8tRx6tqafX3pEsfF%2F8jVqYjufhmrbXhUYLKTScda%2F56fwLMMc3LHwKzNVSg8ea5QPBZ%2FQUaEgcxERRDYcRyj9SktzY5%2FQjyNmIVvTC8MY3j5oy6%2BecWENeJ8Yx0bflrZ5VNoXprvaklQbtzwtt9mot7jJGGVuiEcRHzUtzAP7T6sNb65v8xqKAl8AG4AMXn7xlfoW7vWjiGfKA%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:55:36,986 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1428'}
+2024-04-08 10:55:36,986 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:55:38,744 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\output.log
+2024-04-08 10:55:39,117 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/xkwef2t9/wandb-metadata.json?Expires=1712631335&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=VSi8OwCHvU0FB0HYO%2Bo44FhHReZiYhN3cD6qEanpFfdAfCz%2ByfnlPOAIQxrLXuC%2B%2FJWb%2BqFKzvBWeh60eP7FVnttw62EJXCvhrAZc%2F5knyPg2%2F%2BFw136krNYlYCMjMbGg6Zzjm0R8tRx6tqafX3pEsfF%2F8jVqYjufhmrbXhUYLKTScda%2F56fwLMMc3LHwKzNVSg8ea5QPBZ%2FQUaEgcxERRDYcRyj9SktzY5%2FQjyNmIVvTC8MY3j5oy6%2BecWENeJ8Yx0bflrZ5VNoXprvaklQbtzwtt9mot7jJGGVuiEcRHzUtzAP7T6sNb65v8xqKAl8AG4AMXn7xlfoW7vWjiGfKA%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:55:39,117 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1428'}
+2024-04-08 10:55:39,117 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:55:39,117 INFO    wandb-upload_0:26444 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2760, in upload_file
+    response = self._upload_file_session.put(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2791, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2760, in upload_file
+    response = self._upload_file_session.put(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2024-04-08 10:55:40,866 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:55:41,760 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\output.log
+2024-04-08 10:55:43,570 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/xkwef2t9/wandb-metadata.json?Expires=1712631335&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=VSi8OwCHvU0FB0HYO%2Bo44FhHReZiYhN3cD6qEanpFfdAfCz%2ByfnlPOAIQxrLXuC%2B%2FJWb%2BqFKzvBWeh60eP7FVnttw62EJXCvhrAZc%2F5knyPg2%2F%2BFw136krNYlYCMjMbGg6Zzjm0R8tRx6tqafX3pEsfF%2F8jVqYjufhmrbXhUYLKTScda%2F56fwLMMc3LHwKzNVSg8ea5QPBZ%2FQUaEgcxERRDYcRyj9SktzY5%2FQjyNmIVvTC8MY3j5oy6%2BecWENeJ8Yx0bflrZ5VNoXprvaklQbtzwtt9mot7jJGGVuiEcRHzUtzAP7T6sNb65v8xqKAl8AG4AMXn7xlfoW7vWjiGfKA%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:55:43,570 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1428'}
+2024-04-08 10:55:43,571 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:55:45,902 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:55:50,310 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 10:55:50,310 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 10:55:50,311 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 10:55:51,600 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:55:53,178 INFO    wandb-upload_0:26444 [upload_job.py:push():131] Uploaded file C:\Users\RyukiRi\AppData\Local\Temp\tmpcq8t60lwwandb\lj4ipror-wandb-metadata.json
+2024-04-08 10:55:56,648 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:56:01,706 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:56:02,940 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\config.yaml
+2024-04-08 10:56:05,320 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 10:56:05,321 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 10:56:05,322 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 10:56:06,110 DEBUG   SenderThread:26444 [sender.py:send():379] send: exit
+2024-04-08 10:56:06,110 INFO    SenderThread:26444 [sender.py:send_exit():586] handling exit code: 255
+2024-04-08 10:56:06,110 INFO    SenderThread:26444 [sender.py:send_exit():588] handling runtime: 35
+2024-04-08 10:56:06,119 INFO    SenderThread:26444 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 10:56:06,119 INFO    SenderThread:26444 [sender.py:send_exit():594] send defer
+2024-04-08 10:56:06,119 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,119 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-08 10:56:06,120 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,120 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-08 10:56:06,120 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 1
+2024-04-08 10:56:06,120 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,120 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-08 10:56:06,120 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,120 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-08 10:56:06,120 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 2
+2024-04-08 10:56:06,121 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,121 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-08 10:56:06,121 INFO    HandlerThread:26444 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-08 10:56:06,129 DEBUG   SystemMonitor:26444 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-08 10:56:06,130 DEBUG   SystemMonitor:26444 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-08 10:56:06,130 DEBUG   SystemMonitor:26444 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-08 10:56:06,131 INFO    HandlerThread:26444 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-08 10:56:06,131 INFO    HandlerThread:26444 [interfaces.py:finish():202] Joined disk monitor
+2024-04-08 10:56:06,196 INFO    HandlerThread:26444 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-08 10:56:06,196 INFO    HandlerThread:26444 [interfaces.py:finish():202] Joined memory monitor
+2024-04-08 10:56:06,196 INFO    HandlerThread:26444 [interfaces.py:finish():202] Joined network monitor
+2024-04-08 10:56:06,197 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,197 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-08 10:56:06,197 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 3
+2024-04-08 10:56:06,197 DEBUG   SenderThread:26444 [sender.py:send():379] send: stats
+2024-04-08 10:56:06,197 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,197 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-08 10:56:06,197 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,197 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-08 10:56:06,197 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 4
+2024-04-08 10:56:06,197 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,198 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-08 10:56:06,198 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,198 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-08 10:56:06,198 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 5
+2024-04-08 10:56:06,198 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,198 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-08 10:56:06,198 DEBUG   SenderThread:26444 [sender.py:send():379] send: summary
+2024-04-08 10:56:06,200 INFO    SenderThread:26444 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 10:56:06,200 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,200 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-08 10:56:06,200 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 6
+2024-04-08 10:56:06,200 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,200 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-08 10:56:06,201 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,201 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-08 10:56:06,201 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 7
+2024-04-08 10:56:06,201 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:56:06,201 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,201 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-08 10:56:06,201 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,201 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-08 10:56:06,960 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\wandb-summary.json
+2024-04-08 10:56:06,989 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 8
+2024-04-08 10:56:06,989 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:06,990 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-08 10:56:06,990 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:06,990 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-08 10:56:06,990 INFO    SenderThread:26444 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-08 10:56:06,990 INFO    SenderThread:26444 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-08 10:56:07,033 INFO    SenderThread:26444 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-08 10:56:07,046 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 9
+2024-04-08 10:56:07,046 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:07,046 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-08 10:56:07,047 DEBUG   SenderThread:26444 [sender.py:send():379] send: artifact
+2024-04-08 10:56:07,115 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:07,971 INFO    Thread-16 :26444 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\output.log
+2024-04-08 10:56:08,987 INFO    wandb-upload_1:26444 [upload_job.py:push():89] Uploaded file C:\Users\RyukiRi\AppData\Local\Temp\tmps2ajk8jx\wandb-job.json
+2024-04-08 10:56:09,737 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/159458912/788083133/b8852e801ae7d378adea8ebe67518b7b?Expires=1712631368&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=uB%2FzfqaUHxckzV86mX4PQNgFauQVTFu6LJQuvEzzCDg0h7Wt%2FmI5YIh4FU7B%2BhvPnR1sf8tr7Q1iVdznHVYRItCnA%2B%2F9sJx%2BhbKl7U8uB8hPEtC0rxb8UoAMf7VEp20Dt1xdjPWTedR4n570%2Fjf19v%2Fu9sCagMkYnAYtZP9pqrLWbRCWqrEIeuJjZKKREjguQLj8sVLTxxf40FpIU%2BFlnpOdahC9M32sc%2F%2FQUqKy0HufZt3UXpuC%2F6WSSgHWHig2T0yPeRtNGovQhgTQWwpZiNLfouRzHWPMrb%2FhWu2%2B8rA%2BhLI1UbEJmV9T%2FnOZR%2B4eZStkHLGBARSytowqSvdNow%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:56:09,737 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'uIUugBrn03it6o6+Z1GLew==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '769'}
+2024-04-08 10:56:09,737 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:56:11,231 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/159458912/788083133/b8852e801ae7d378adea8ebe67518b7b?Expires=1712631368&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=uB%2FzfqaUHxckzV86mX4PQNgFauQVTFu6LJQuvEzzCDg0h7Wt%2FmI5YIh4FU7B%2BhvPnR1sf8tr7Q1iVdznHVYRItCnA%2B%2F9sJx%2BhbKl7U8uB8hPEtC0rxb8UoAMf7VEp20Dt1xdjPWTedR4n570%2Fjf19v%2Fu9sCagMkYnAYtZP9pqrLWbRCWqrEIeuJjZKKREjguQLj8sVLTxxf40FpIU%2BFlnpOdahC9M32sc%2F%2FQUqKy0HufZt3UXpuC%2F6WSSgHWHig2T0yPeRtNGovQhgTQWwpZiNLfouRzHWPMrb%2FhWu2%2B8rA%2BhLI1UbEJmV9T%2FnOZR%2B4eZStkHLGBARSytowqSvdNow%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:56:11,231 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'uIUugBrn03it6o6+Z1GLew==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '769'}
+2024-04-08 10:56:11,231 ERROR   wandb-upload_0:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:56:12,178 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-08 10:56:16,749 INFO    wandb-upload_0:26444 [upload_job.py:push():89] Uploaded file C:\Users\RyukiRi\AppData\Local\wandb\wandb\artifacts\staging\tmps4twv_jf
+2024-04-08 10:56:17,213 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-08 10:56:18,581 INFO    SenderThread:26444 [sender.py:send_artifact():1468] sent artifact job-https___github.com_openai_CLIP.git_dataloader.py - {'id': 'QXJ0aWZhY3Q6Nzg4MDgzMTMz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1OTQ1ODkxMg==', 'latestArtifact': None}}
+2024-04-08 10:56:18,581 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:18,581 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-08 10:56:18,581 INFO    SenderThread:26444 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-08 10:56:18,582 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:56:19,107 INFO    SenderThread:26444 [dir_watcher.py:finish():388] scan: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files
+2024-04-08 10:56:19,108 INFO    SenderThread:26444 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\conda-environment.yaml conda-environment.yaml
+2024-04-08 10:56:19,108 INFO    SenderThread:26444 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\config.yaml config.yaml
+2024-04-08 10:56:19,110 INFO    SenderThread:26444 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\output.log output.log
+2024-04-08 10:56:19,112 INFO    SenderThread:26444 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\requirements.txt requirements.txt
+2024-04-08 10:56:19,114 INFO    SenderThread:26444 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\wandb-metadata.json wandb-metadata.json
+2024-04-08 10:56:19,114 INFO    SenderThread:26444 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\wandb-summary.json wandb-summary.json
+2024-04-08 10:56:19,116 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 10
+2024-04-08 10:56:19,116 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:19,116 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:19,118 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-08 10:56:19,119 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:19,119 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-08 10:56:19,120 INFO    SenderThread:26444 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 10:56:19,231 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:19,232 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:19,703 INFO    wandb-upload_0:26444 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\config.yaml
+2024-04-08 10:56:19,807 ERROR   wandb-upload_3:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/xkwef2t9/requirements.txt?Expires=1712631379&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=TOSZEMRVBXoEa2bkItFOCsLCubIaK8LiBjmYs1ADpmjS%2BRwtfQExv%2BEZDpKSzpeyE%2Ff%2FF0i66LqrBqURY9RRhhat0peXsega2ZUzw36KfUdY0iWYFGSK3FWFMrK%2BzqkpnQGKKt0sHwtnWjBRJ%2BGQ9ob%2BF7sJhxA8BYI5H9BkXIk2CiGHI2K6C%2ByGqQD8j%2FIBpiBx8PMxcX80xT7aGGA2yN05MLMB3WfooHesCh4yg8S2YHnOcwC17i0Omr99EVvvuPUQqjV6RyUio6wGTGSWp2h2gI10edWcxoZuZIx39ede2koHm4Bmyumy3nC3%2FZg3YoT8izA1oK9J4zGNYoSfAg%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:56:19,807 ERROR   wandb-upload_3:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '769'}
+2024-04-08 10:56:19,807 ERROR   wandb-upload_3:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:56:19,834 ERROR   wandb-upload_4:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/xkwef2t9/wandb-summary.json?Expires=1712631379&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=P0xpcVTx0FFHMvBJrbkBCzbMxaW1Z3%2FJaaKp9D1isKzHOqfGQGn6R%2FKCtwOEQ3qQ0SZqIeTRk6Ppo4eTfW1IoCCqbC6NmaM1V9AxOY%2Bs%2FNbML41sw7Vk5MASR%2BLFFc9dxS1YvhewZAHTFLW74U%2BdPfxegWUAvsLWkI1O4wTgxTsrGhhs7YMK7sh2ZnebZuCCDOZDEoUksoKe5pEhn5JtXy3R%2B7mL%2Flf1KUN1bbsPd5ot2pUfwsAbspJ5zWvVI1HVM8PMhFIlNURs5qpuDVO%2BaM4KXjR80Gqjn731H4QhCAkdIe2mge%2FhAUOATvML%2Fg8OxBPU7DlPoxwCcodVIVT3vw%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:56:19,834 ERROR   wandb-upload_4:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '27'}
+2024-04-08 10:56:19,834 ERROR   wandb-upload_4:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:56:19,935 INFO    wandb-upload_1:26444 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\conda-environment.yaml
+2024-04-08 10:56:20,247 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:20,248 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:21,252 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:21,252 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:21,281 ERROR   wandb-upload_3:26444 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/xkwef2t9/requirements.txt?Expires=1712631379&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=TOSZEMRVBXoEa2bkItFOCsLCubIaK8LiBjmYs1ADpmjS%2BRwtfQExv%2BEZDpKSzpeyE%2Ff%2FF0i66LqrBqURY9RRhhat0peXsega2ZUzw36KfUdY0iWYFGSK3FWFMrK%2BzqkpnQGKKt0sHwtnWjBRJ%2BGQ9ob%2BF7sJhxA8BYI5H9BkXIk2CiGHI2K6C%2ByGqQD8j%2FIBpiBx8PMxcX80xT7aGGA2yN05MLMB3WfooHesCh4yg8S2YHnOcwC17i0Omr99EVvvuPUQqjV6RyUio6wGTGSWp2h2gI10edWcxoZuZIx39ede2koHm4Bmyumy3nC3%2FZg3YoT8izA1oK9J4zGNYoSfAg%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-04-08 10:56:21,281 ERROR   wandb-upload_3:26444 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '769'}
+2024-04-08 10:56:21,281 ERROR   wandb-upload_3:26444 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 10:56:21,281 INFO    wandb-upload_3:26444 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "D:\Anaconda\envs\pytorch0\lib\ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2760, in upload_file
+    response = self._upload_file_session.put(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2791, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2760, in upload_file
+    response = self._upload_file_session.put(
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2024-04-08 10:56:21,440 INFO    wandb-upload_2:26444 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\output.log
+2024-04-08 10:56:21,497 INFO    wandb-upload_4:26444 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\wandb-summary.json
+2024-04-08 10:56:22,259 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:22,261 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:23,272 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:23,272 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:24,273 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:24,273 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:24,274 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 10:56:24,297 INFO    wandb-upload_3:26444 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\files\requirements.txt
+2024-04-08 10:56:24,508 INFO    Thread-15 :26444 [sender.py:transition_state():614] send defer: 11
+2024-04-08 10:56:24,508 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:24,508 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-08 10:56:24,508 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:24,508 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-08 10:56:24,508 INFO    SenderThread:26444 [file_pusher.py:join():178] waiting for file pusher
+2024-04-08 10:56:24,510 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 12
+2024-04-08 10:56:24,510 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:24,510 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-08 10:56:24,510 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:24,510 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-08 10:56:24,511 INFO    SenderThread:26444 [file_stream.py:finish():614] file stream finish called
+2024-04-08 10:56:24,797 INFO    SenderThread:26444 [file_stream.py:finish():618] file stream finish is done
+2024-04-08 10:56:24,797 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 13
+2024-04-08 10:56:24,798 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:24,798 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-08 10:56:24,798 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:24,798 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-08 10:56:24,798 INFO    SenderThread:26444 [sender.py:transition_state():614] send defer: 14
+2024-04-08 10:56:24,798 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 10:56:24,798 INFO    HandlerThread:26444 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-08 10:56:24,799 DEBUG   SenderThread:26444 [sender.py:send():379] send: final
+2024-04-08 10:56:24,799 DEBUG   SenderThread:26444 [sender.py:send():379] send: footer
+2024-04-08 10:56:24,799 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: defer
+2024-04-08 10:56:24,799 INFO    SenderThread:26444 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-08 10:56:24,799 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:24,800 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 10:56:24,800 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: server_info
+2024-04-08 10:56:24,800 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-08 10:56:24,800 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-08 10:56:24,800 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 10:56:24,800 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:24,800 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 10:56:24,801 DEBUG   SenderThread:26444 [sender.py:send_request():406] send_request: server_info
+2024-04-08 10:56:25,136 INFO    MainThread:26444 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-08 10:56:25,136 INFO    MainThread:26444 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-08 10:56:25,136 INFO    MainThread:26444 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-04-08 10:56:25,138 DEBUG   HandlerThread:26444 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-08 10:56:25,138 INFO    HandlerThread:26444 [handler.py:finish():866] shutting down handler
+2024-04-08 10:56:25,815 INFO    WriterThread:26444 [datastore.py:close():296] close: E:\Projects\CLIP\wandb\run-20240408_105529-xkwef2t9\run-xkwef2t9.wandb
+2024-04-08 10:56:26,143 INFO    SenderThread:26444 [sender.py:finish():1546] shutting down sender
+2024-04-08 10:56:26,143 INFO    SenderThread:26444 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 10:56:26,143 INFO    SenderThread:26444 [file_pusher.py:join():178] waiting for file pusher

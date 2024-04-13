@@ -1,0 +1,28 @@
+2024-04-08 10:59:37,595 INFO    MainThread:21436 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-08 10:59:37,595 INFO    MainThread:21436 [wandb_setup.py:_flush():76] Configure stats pid to 21436
+2024-04-08 10:59:37,595 INFO    MainThread:21436 [wandb_setup.py:_flush():76] Loading settings from C:\Users\RyukiRi\.config\wandb\settings
+2024-04-08 10:59:37,595 INFO    MainThread:21436 [wandb_setup.py:_flush():76] Loading settings from E:\Projects\CLIP\wandb\settings
+2024-04-08 10:59:37,595 INFO    MainThread:21436 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-08 10:59:37,595 INFO    MainThread:21436 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'dataloader.py', 'program_abspath': 'E:\\Projects\\CLIP\\dataloader.py', 'program': 'E:\\Projects\\CLIP\\dataloader.py'}
+2024-04-08 10:59:37,595 INFO    MainThread:21436 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-08 10:59:37,596 INFO    MainThread:21436 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-08 10:59:37,596 INFO    MainThread:21436 [wandb_init.py:_log_setup():521] Logging user logs to E:\Projects\CLIP\wandb\run-20240408_105937-qpe7bxt7\logs\debug.log
+2024-04-08 10:59:37,596 INFO    MainThread:21436 [wandb_init.py:_log_setup():522] Logging internal logs to E:\Projects\CLIP\wandb\run-20240408_105937-qpe7bxt7\logs\debug-internal.log
+2024-04-08 10:59:37,596 INFO    MainThread:21436 [wandb_init.py:init():561] calling init triggers
+2024-04-08 10:59:37,596 INFO    MainThread:21436 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 10, 'batch_size': 64}
+2024-04-08 10:59:37,596 INFO    MainThread:21436 [wandb_init.py:init():611] starting backend
+2024-04-08 10:59:37,596 INFO    MainThread:21436 [wandb_init.py:init():615] setting up manager
+2024-04-08 10:59:37,597 INFO    MainThread:21436 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-08 10:59:37,600 INFO    MainThread:21436 [wandb_init.py:init():623] backend started and connected
+2024-04-08 10:59:37,602 INFO    MainThread:21436 [wandb_init.py:init():715] updated telemetry
+2024-04-08 10:59:37,639 INFO    MainThread:21436 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-08 10:59:39,342 INFO    MainThread:21436 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-08 10:59:40,907 INFO    MainThread:21436 [wandb_run.py:_on_init():2366] got version response 
+2024-04-08 10:59:40,907 INFO    MainThread:21436 [wandb_init.py:init():799] starting run threads in backend
+2024-04-08 10:59:43,536 INFO    MainThread:21436 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-08 10:59:43,536 INFO    MainThread:21436 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-08 10:59:43,536 INFO    MainThread:21436 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-08 10:59:43,536 INFO    MainThread:21436 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-08 10:59:43,536 INFO    MainThread:21436 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-08 11:05:45,118 WARNING MsgRouterThr:21436 [router.py:message_loop():77] message_loop has been closed

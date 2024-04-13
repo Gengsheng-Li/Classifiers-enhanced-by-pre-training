@@ -1,0 +1,28 @@
+2024-04-08 12:26:37,400 INFO    MainThread:29316 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-08 12:26:37,400 INFO    MainThread:29316 [wandb_setup.py:_flush():76] Configure stats pid to 29316
+2024-04-08 12:26:37,400 INFO    MainThread:29316 [wandb_setup.py:_flush():76] Loading settings from C:\Users\RyukiRi\.config\wandb\settings
+2024-04-08 12:26:37,400 INFO    MainThread:29316 [wandb_setup.py:_flush():76] Loading settings from E:\Projects\CLIP\wandb\settings
+2024-04-08 12:26:37,400 INFO    MainThread:29316 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-08 12:26:37,400 INFO    MainThread:29316 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'dataloader.py', 'program_abspath': 'E:\\Projects\\CLIP\\dataloader.py', 'program': 'E:\\Projects\\CLIP\\dataloader.py'}
+2024-04-08 12:26:37,400 INFO    MainThread:29316 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-08 12:26:37,401 INFO    MainThread:29316 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-08 12:26:37,401 INFO    MainThread:29316 [wandb_init.py:_log_setup():521] Logging user logs to E:\Projects\CLIP\wandb\run-20240408_122637-3i7oreh9\logs\debug.log
+2024-04-08 12:26:37,401 INFO    MainThread:29316 [wandb_init.py:_log_setup():522] Logging internal logs to E:\Projects\CLIP\wandb\run-20240408_122637-3i7oreh9\logs\debug-internal.log
+2024-04-08 12:26:37,401 INFO    MainThread:29316 [wandb_init.py:init():561] calling init triggers
+2024-04-08 12:26:37,402 INFO    MainThread:29316 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 20, 'batch_size': 128, 'validation_split': 0.2}
+2024-04-08 12:26:37,402 INFO    MainThread:29316 [wandb_init.py:init():611] starting backend
+2024-04-08 12:26:37,402 INFO    MainThread:29316 [wandb_init.py:init():615] setting up manager
+2024-04-08 12:26:37,403 INFO    MainThread:29316 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-08 12:26:37,406 INFO    MainThread:29316 [wandb_init.py:init():623] backend started and connected
+2024-04-08 12:26:37,409 INFO    MainThread:29316 [wandb_init.py:init():715] updated telemetry
+2024-04-08 12:26:37,450 INFO    MainThread:29316 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-08 12:26:38,896 INFO    MainThread:29316 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-08 12:26:40,231 INFO    MainThread:29316 [wandb_run.py:_on_init():2366] got version response 
+2024-04-08 12:26:40,231 INFO    MainThread:29316 [wandb_init.py:init():799] starting run threads in backend
+2024-04-08 12:26:42,942 INFO    MainThread:29316 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-08 12:26:42,942 INFO    MainThread:29316 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-08 12:26:42,944 INFO    MainThread:29316 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-08 12:26:42,944 INFO    MainThread:29316 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-08 12:26:42,944 INFO    MainThread:29316 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-08 13:11:50,897 WARNING MsgRouterThr:29316 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:\Projects\CLIP\train_from_scratch.py", line 141, in <module>
+    main(args)
+  File "E:\Projects\CLIP\train_from_scratch.py", line 135, in main
+    trainloader, valloader, testloader = dataloader()
+TypeError: dataloader() missing 1 required positional argument: 'args'

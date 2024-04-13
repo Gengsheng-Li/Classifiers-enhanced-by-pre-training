@@ -1,0 +1,225 @@
+2024-04-08 19:40:04,786 INFO    StreamThr :5352 [internal.py:wandb_internal():86] W&B internal server running at pid: 5352, started at: 2024-04-08 19:40:04.785842
+2024-04-08 19:40:04,788 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status
+2024-04-08 19:40:04,790 INFO    WriterThread:5352 [datastore.py:open_for_write():87] open: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\run-opc47gow.wandb
+2024-04-08 19:40:04,792 DEBUG   SenderThread:5352 [sender.py:send():379] send: header
+2024-04-08 19:40:04,833 DEBUG   SenderThread:5352 [sender.py:send():379] send: run
+2024-04-08 19:40:06,218 INFO    SenderThread:5352 [dir_watcher.py:__init__():211] watching files in: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files
+2024-04-08 19:40:06,219 INFO    SenderThread:5352 [sender.py:_start_run_threads():1124] run started: opc47gow with start time 1712576404.787842
+2024-04-08 19:40:06,227 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: check_version
+2024-04-08 19:40:06,228 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: check_version
+2024-04-08 19:40:08,488 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: run_start
+2024-04-08 19:40:08,515 DEBUG   HandlerThread:5352 [system_info.py:__init__():26] System info init
+2024-04-08 19:40:08,515 DEBUG   HandlerThread:5352 [system_info.py:__init__():41] System info init done
+2024-04-08 19:40:08,516 INFO    HandlerThread:5352 [system_monitor.py:start():194] Starting system monitor
+2024-04-08 19:40:08,516 INFO    SystemMonitor:5352 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-08 19:40:08,516 INFO    HandlerThread:5352 [system_monitor.py:probe():214] Collecting system info
+2024-04-08 19:40:08,522 INFO    SystemMonitor:5352 [interfaces.py:start():190] Started cpu monitoring
+2024-04-08 19:40:08,522 INFO    SystemMonitor:5352 [interfaces.py:start():190] Started disk monitoring
+2024-04-08 19:40:08,523 INFO    SystemMonitor:5352 [interfaces.py:start():190] Started gpu monitoring
+2024-04-08 19:40:08,532 INFO    SystemMonitor:5352 [interfaces.py:start():190] Started memory monitoring
+2024-04-08 19:40:08,542 INFO    SystemMonitor:5352 [interfaces.py:start():190] Started network monitoring
+2024-04-08 19:40:08,548 DEBUG   HandlerThread:5352 [system_info.py:probe():150] Probing system
+2024-04-08 19:40:08,548 DEBUG   HandlerThread:5352 [system_info.py:_probe_git():135] Probing git
+2024-04-08 19:40:08,627 DEBUG   HandlerThread:5352 [system_info.py:_probe_git():143] Probing git done
+2024-04-08 19:40:08,627 DEBUG   HandlerThread:5352 [system_info.py:probe():198] Probing system done
+2024-04-08 19:40:08,627 DEBUG   HandlerThread:5352 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.15', 'heartbeatAt': '2024-04-08T11:40:08.548030', 'startedAt': '2024-04-08T11:40:04.767157', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\Projects\\CLIP\\zero_shot.py', 'codePathLocal': 'zero_shot.py', 'codePath': 'zero_shot.py', 'git': {'remote': 'https://github.com/openai/CLIP.git', 'commit': 'a1d071733d7111c9c014f024669f959182114e33'}, 'email': 'ligengchengucd@163.com', 'root': 'E:/Projects/CLIP', 'host': 'LAPTOP-G8U7O3JS', 'username': 'RyukiRi', 'executable': 'D:\\Anaconda\\envs\\pytorch0\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 1506.0, 'min': 0.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 1506.0, 'min': 0.0, 'max': 2300.0}], 'disk': {'/': {'total': 1907.7265586853027, 'used': 751.2533111572266}}, 'gpu': 'NVIDIA GeForce RTX 3080 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3080 Ti Laptop GPU', 'memory_total': 17179869184}], 'memory': {'total': 63.672584533691406}}
+2024-04-08 19:40:08,627 INFO    HandlerThread:5352 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-08 19:40:08,627 INFO    HandlerThread:5352 [system_monitor.py:probe():227] Publishing system info
+2024-04-08 19:40:08,628 DEBUG   HandlerThread:5352 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-08 19:40:09,248 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\conda-environment.yaml
+2024-04-08 19:40:12,588 DEBUG   HandlerThread:5352 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-08 19:40:12,595 INFO    HandlerThread:5352 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-08 19:40:12,599 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 19:40:12,599 DEBUG   SenderThread:5352 [sender.py:send():379] send: files
+2024-04-08 19:40:12,599 INFO    SenderThread:5352 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-08 19:40:12,799 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-08 19:40:12,799 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: python_packages
+2024-04-08 19:40:12,799 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 19:40:12,799 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 19:40:12,800 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 19:40:13,292 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\conda-environment.yaml
+2024-04-08 19:40:13,292 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\wandb-metadata.json
+2024-04-08 19:40:13,294 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\requirements.txt
+2024-04-08 19:40:14,256 DEBUG   SenderThread:5352 [sender.py:send():379] send: telemetry
+2024-04-08 19:40:14,508 INFO    wandb-upload_0:5352 [upload_job.py:push():131] Uploaded file C:\Users\RyukiRi\AppData\Local\Temp\tmpzx774dcwwandb\mp7zc229-wandb-metadata.json
+2024-04-08 19:40:15,308 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:16,459 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 19:40:17,329 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:18,344 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:20,354 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:22,201 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 19:40:22,372 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:24,375 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:26,399 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:27,787 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 19:40:27,787 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 19:40:27,803 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 19:40:28,227 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 19:40:28,426 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:30,457 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:32,466 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:34,144 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 19:40:34,479 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:35,724 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 19:40:35,725 DEBUG   SenderThread:5352 [sender.py:send():379] send: history
+2024-04-08 19:40:35,725 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 19:40:35,745 INFO    SenderThread:5352 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 19:40:35,745 DEBUG   SenderThread:5352 [sender.py:send():379] send: exit
+2024-04-08 19:40:35,745 INFO    SenderThread:5352 [sender.py:send_exit():586] handling exit code: 0
+2024-04-08 19:40:35,745 INFO    SenderThread:5352 [sender.py:send_exit():588] handling runtime: 27
+2024-04-08 19:40:35,753 INFO    SenderThread:5352 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 19:40:35,753 INFO    SenderThread:5352 [sender.py:send_exit():594] send defer
+2024-04-08 19:40:35,753 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:35,753 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-08 19:40:35,754 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:35,754 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-08 19:40:35,754 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 1
+2024-04-08 19:40:35,754 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:35,754 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-08 19:40:35,754 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:35,754 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-08 19:40:35,754 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 2
+2024-04-08 19:40:35,754 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:35,754 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-08 19:40:35,754 INFO    HandlerThread:5352 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-08 19:40:35,755 DEBUG   SystemMonitor:5352 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-08 19:40:35,755 DEBUG   SystemMonitor:5352 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-08 19:40:35,755 DEBUG   SystemMonitor:5352 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-08 19:40:35,756 INFO    HandlerThread:5352 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-08 19:40:35,756 INFO    HandlerThread:5352 [interfaces.py:finish():202] Joined disk monitor
+2024-04-08 19:40:35,856 INFO    HandlerThread:5352 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-08 19:40:35,857 INFO    HandlerThread:5352 [interfaces.py:finish():202] Joined memory monitor
+2024-04-08 19:40:35,857 INFO    HandlerThread:5352 [interfaces.py:finish():202] Joined network monitor
+2024-04-08 19:40:35,857 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:35,857 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-08 19:40:35,857 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 3
+2024-04-08 19:40:35,857 DEBUG   SenderThread:5352 [sender.py:send():379] send: stats
+2024-04-08 19:40:35,857 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:35,858 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-08 19:40:35,858 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:35,858 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-08 19:40:35,858 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 4
+2024-04-08 19:40:35,858 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:35,858 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-08 19:40:35,859 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:35,859 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-08 19:40:35,859 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 5
+2024-04-08 19:40:35,859 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:35,859 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-08 19:40:35,859 DEBUG   SenderThread:5352 [sender.py:send():379] send: summary
+2024-04-08 19:40:35,861 INFO    SenderThread:5352 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 19:40:35,861 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:35,861 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-08 19:40:35,861 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 6
+2024-04-08 19:40:35,861 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:35,861 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-08 19:40:35,862 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:35,862 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-08 19:40:35,864 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 19:40:36,257 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 7
+2024-04-08 19:40:36,257 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:36,257 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-08 19:40:36,258 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:36,258 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-08 19:40:36,490 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\config.yaml
+2024-04-08 19:40:36,491 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:36,491 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_created():271] file/dir created: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\wandb-summary.json
+2024-04-08 19:40:36,741 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 19:40:37,497 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:37,549 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 8
+2024-04-08 19:40:37,549 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 19:40:37,549 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:37,549 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-08 19:40:37,549 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:37,549 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-08 19:40:37,549 INFO    SenderThread:5352 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-08 19:40:37,550 INFO    SenderThread:5352 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-08 19:40:37,593 INFO    SenderThread:5352 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-08 19:40:37,608 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 9
+2024-04-08 19:40:37,608 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:37,608 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-08 19:40:37,608 DEBUG   SenderThread:5352 [sender.py:send():379] send: artifact
+2024-04-08 19:40:37,750 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 19:40:38,499 INFO    Thread-16 :5352 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:40,710 INFO    wandb-upload_1:5352 [upload_job.py:push():89] Uploaded file C:\Users\RyukiRi\AppData\Local\Temp\tmp54fu9wji\wandb-job.json
+2024-04-08 19:40:41,384 INFO    wandb-upload_0:5352 [upload_job.py:push():89] Uploaded file C:\Users\RyukiRi\AppData\Local\wandb\wandb\artifacts\staging\tmpy9w4njxj
+2024-04-08 19:40:42,797 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-08 19:40:43,905 INFO    SenderThread:5352 [sender.py:send_artifact():1468] sent artifact job-https___github.com_openai_CLIP.git_zero_shot.py - {'id': 'QXJ0aWZhY3Q6Nzg4Njk4OTUz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1OTgwNDI4MA==', 'latestArtifact': None}}
+2024-04-08 19:40:43,905 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:43,905 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 19:40:43,905 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-08 19:40:43,905 INFO    SenderThread:5352 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-08 19:40:44,555 INFO    SenderThread:5352 [dir_watcher.py:finish():388] scan: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files
+2024-04-08 19:40:44,555 INFO    SenderThread:5352 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\conda-environment.yaml conda-environment.yaml
+2024-04-08 19:40:44,555 INFO    SenderThread:5352 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\config.yaml config.yaml
+2024-04-08 19:40:44,556 INFO    SenderThread:5352 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log output.log
+2024-04-08 19:40:44,558 INFO    SenderThread:5352 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\requirements.txt requirements.txt
+2024-04-08 19:40:44,560 INFO    SenderThread:5352 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\wandb-metadata.json wandb-metadata.json
+2024-04-08 19:40:44,561 INFO    SenderThread:5352 [dir_watcher.py:finish():402] scan save: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\wandb-summary.json wandb-summary.json
+2024-04-08 19:40:44,563 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 10
+2024-04-08 19:40:44,563 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 19:40:44,563 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:44,565 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-08 19:40:44,565 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:44,565 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-08 19:40:44,568 INFO    SenderThread:5352 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 19:40:44,818 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 19:40:44,819 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 19:40:45,374 INFO    wandb-upload_0:5352 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\config.yaml
+2024-04-08 19:40:45,403 INFO    wandb-upload_1:5352 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\conda-environment.yaml
+2024-04-08 19:40:45,829 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 19:40:45,830 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 19:40:45,944 ERROR   wandb-upload_4:5352 [internal_api.py:upload_file():2767] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/opc47gow/wandb-summary.json?Expires=1712662845&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=MbVTU260EWLOtYDYHMD0HVtomnGvTnDaMqjzXuq%2BJcrN3VhjVUPBHRoWdkkNsYXvdnzM0PhWD%2F8yAVFDXBiDRX%2BJvIwYPm%2FexXj%2B7qmVjlQsWvCryxOYCBQ66lixyRecMruD4eRY6oNl01shr%2FlqpbG4QrdCy%2BUZfIiloXClTaBlF79Lt4l0HkIeDa8vlyU4vA73NoOmTf7VDSLw5zIgze7b4HFd4zZNAqFoR4jPTB7V%2FAEyz6lnhzCcKBstSXk%2B%2BA1OVyamlAMI4Thp%2B5DhIebhjf5QGCVn6WRQpRl2Y0153R8W1NlHPlZtMwWoTsQYF%2Boh%2Fs1FQ7orj77CYlBmiA%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/BDIC-DMML-2024/clip-linear-probe-classification/opc47gow/wandb-summary.json?Expires=1712662845&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=MbVTU260EWLOtYDYHMD0HVtomnGvTnDaMqjzXuq%2BJcrN3VhjVUPBHRoWdkkNsYXvdnzM0PhWD%2F8yAVFDXBiDRX%2BJvIwYPm%2FexXj%2B7qmVjlQsWvCryxOYCBQ66lixyRecMruD4eRY6oNl01shr%2FlqpbG4QrdCy%2BUZfIiloXClTaBlF79Lt4l0HkIeDa8vlyU4vA73NoOmTf7VDSLw5zIgze7b4HFd4zZNAqFoR4jPTB7V%2FAEyz6lnhzCcKBstSXk%2B%2BA1OVyamlAMI4Thp%2B5DhIebhjf5QGCVn6WRQpRl2Y0153R8W1NlHPlZtMwWoTsQYF%2Boh%2Fs1FQ7orj77CYlBmiA%3D%3D (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2024-04-08 19:40:45,944 ERROR   wandb-upload_4:5352 [internal_api.py:upload_file():2769] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '129'}
+2024-04-08 19:40:45,944 ERROR   wandb-upload_4:5352 [internal_api.py:upload_file():2771] upload_file response body: 
+2024-04-08 19:40:46,372 INFO    wandb-upload_2:5352 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\output.log
+2024-04-08 19:40:46,373 INFO    wandb-upload_3:5352 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\requirements.txt
+2024-04-08 19:40:46,831 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 19:40:46,831 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 19:40:47,545 INFO    wandb-upload_4:5352 [upload_job.py:push():131] Uploaded file E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\files\wandb-summary.json
+2024-04-08 19:40:47,749 INFO    Thread-15 :5352 [sender.py:transition_state():614] send defer: 11
+2024-04-08 19:40:47,749 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:47,749 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-08 19:40:47,750 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:47,750 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-08 19:40:47,750 INFO    SenderThread:5352 [file_pusher.py:join():178] waiting for file pusher
+2024-04-08 19:40:47,750 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 12
+2024-04-08 19:40:47,750 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:47,750 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-08 19:40:47,751 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:47,751 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-08 19:40:47,751 INFO    SenderThread:5352 [file_stream.py:finish():614] file stream finish called
+2024-04-08 19:40:47,842 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 19:40:48,374 INFO    SenderThread:5352 [file_stream.py:finish():618] file stream finish is done
+2024-04-08 19:40:48,374 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 13
+2024-04-08 19:40:48,374 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 19:40:48,374 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:48,374 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-08 19:40:48,374 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:48,374 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-08 19:40:48,374 INFO    SenderThread:5352 [sender.py:transition_state():614] send defer: 14
+2024-04-08 19:40:48,375 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 19:40:48,375 DEBUG   SenderThread:5352 [sender.py:send():379] send: final
+2024-04-08 19:40:48,375 INFO    HandlerThread:5352 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-08 19:40:48,375 DEBUG   SenderThread:5352 [sender.py:send():379] send: footer
+2024-04-08 19:40:48,375 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: defer
+2024-04-08 19:40:48,375 INFO    SenderThread:5352 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-08 19:40:48,375 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 19:40:48,376 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 19:40:48,376 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: server_info
+2024-04-08 19:40:48,376 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 19:40:48,376 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-08 19:40:48,376 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 19:40:48,376 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-08 19:40:48,376 DEBUG   SenderThread:5352 [sender.py:send_request():406] send_request: server_info
+2024-04-08 19:40:48,377 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 19:40:49,397 INFO    MainThread:5352 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-08 19:40:49,397 INFO    MainThread:5352 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-08 19:40:49,397 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 19:40:49,398 INFO    MainThread:5352 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-04-08 19:40:49,400 DEBUG   HandlerThread:5352 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-08 19:40:49,400 INFO    HandlerThread:5352 [handler.py:finish():866] shutting down handler
+2024-04-08 19:40:50,403 INFO    SenderThread:5352 [sender.py:finish():1546] shutting down sender
+2024-04-08 19:40:50,403 INFO    SenderThread:5352 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 19:40:50,403 INFO    SenderThread:5352 [file_pusher.py:join():178] waiting for file pusher
+2024-04-08 19:40:50,403 INFO    WriterThread:5352 [datastore.py:close():296] close: E:\Projects\CLIP\wandb\run-20240408_194004-opc47gow\run-opc47gow.wandb

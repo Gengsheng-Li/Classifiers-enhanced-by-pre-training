@@ -1,0 +1,62 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-04-08T15:04:42.484614",
+    "startedAt": "2024-04-08T15:04:38.920194",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--lr",
+        "1e-3",
+        "--epochs",
+        "60",
+        "--batch_size",
+        "64",
+        "--validation_split",
+        "0.2"
+    ],
+    "state": "running",
+    "program": "E:\\Projects\\CLIP\\linear_probe.py",
+    "codePathLocal": "linear_probe.py",
+    "codePath": "linear_probe.py",
+    "git": {
+        "remote": "https://github.com/openai/CLIP.git",
+        "commit": "a1d071733d7111c9c014f024669f959182114e33"
+    },
+    "email": "ligengchengucd@163.com",
+    "root": "E:/Projects/CLIP",
+    "host": "LAPTOP-G8U7O3JS",
+    "username": "RyukiRi",
+    "executable": "D:\\Anaconda\\envs\\pytorch0\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1506.0,
+        "min": 0.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1506.0,
+            "min": 0.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1907.7265586853027,
+            "used": 751.254451751709
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 63.672584533691406
+    }
+}

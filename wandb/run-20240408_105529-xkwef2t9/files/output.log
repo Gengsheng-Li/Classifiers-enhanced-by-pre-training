@@ -1,0 +1,29 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                                                               | 0/10 [00:27<?, ?it/s]
+Traceback (most recent call last):
+  File "E:\Projects\CLIP\dataloader.py", line 59, in <module>
+    for images, labels in trainloader:
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\utils\data\_utils\fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\datasets\cifar.py", line 118, in __getitem__
+    img = self.transform(img)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\transforms\transforms.py", line 346, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\transforms\functional.py", line 474, in resize
+    return F_pil.resize(img, size=output_size, interpolation=pil_interpolation)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torchvision\transforms\functional_pil.py", line 252, in resize
+    return img.resize(tuple(size[::-1]), interpolation)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\PIL\Image.py", line 2115, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt

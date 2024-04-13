@@ -1,0 +1,73 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                          | 0/200 [00:00<?, ?it/s]
+
+
+  1%|▊                                                                             | 2/200 [07:05<11:40:26, 212.26s/it]
+
+  2%|█▏                                                                            | 3/200 [10:31<11:27:55, 209.52s/it]
+
+  2%|█▌                                                                            | 4/200 [13:58<11:20:38, 208.36s/it]
+Epoch: 4, Average_loss: 4.483912723894698, lr: 0.00049889049115077
+Epoch: 5, Average_loss: 4.485942959404601, lr: 0.0004980286753286195
+### Validation ###
+
+  2%|█▉                                                                            | 5/200 [17:56<11:52:21, 219.19s/it]
+
+  3%|██▎                                                                           | 6/200 [21:25<11:37:55, 215.85s/it]
+
+
+  4%|███                                                                           | 8/200 [28:22<11:17:42, 211.78s/it]
+
+  4%|███▌                                                                          | 9/200 [31:51<11:10:51, 210.74s/it]
+Epoch: 9, Average_loss: 4.466076701593856, lr: 0.0004921457902821577
+Epoch: 10, Average_loss: 4.464395987720916, lr: 0.0004900734214192357
+### Validation ###
+
+  5%|███▊                                                                         | 10/200 [35:49<11:34:36, 219.35s/it]
+
+
+  6%|████▌                                                                        | 12/200 [42:43<11:07:12, 212.94s/it]
+Epoch: 12, Average_loss: 4.459980760519497, lr: 0.00048522019223855637
+
+
+  7%|█████▍                                                                       | 14/200 [49:37<10:50:50, 209.95s/it]
+Epoch: 14, Average_loss: 4.454807854308107, lr: 0.00047943865642099525
+Epoch: 15, Average_loss: 4.454133355198577, lr: 0.0004762067631165049
+### Validation ###
+
+
+  8%|██████▏                                                                      | 16/200 [56:59<10:56:55, 214.21s/it]
+
+  8%|██████▍                                                                    | 17/200 [1:00:24<10:45:02, 211.49s/it]
+
+  9%|██████▊                                                                    | 18/200 [1:03:50<10:35:50, 209.62s/it]
+Epoch: 18, Average_loss: 4.449632774145839, lr: 0.00046518550675098597
+
+ 10%|███████▏                                                                   | 19/200 [1:07:15<10:28:25, 208.32s/it]
+Epoch: 20, Average_loss: 4.446223536238503, lr: 0.0004567701435686405
+### Validation ###
+
+ 10%|███████▌                                                                   | 20/200 [1:11:10<10:49:03, 216.35s/it]
+
+ 10%|███████▉                                                                   | 21/200 [1:16:26<10:51:37, 218.42s/it]
+Traceback (most recent call last):
+  File "E:\Projects\CLIP\train_from_scratch.py", line 184, in <module>
+    main(args)
+  File "E:\Projects\CLIP\train_from_scratch.py", line 180, in main
+    training_validating_testing(classifier, criterion, optimizer, scheduler, trainloader, valloader, testloader)
+  File "E:\Projects\CLIP\train_from_scratch.py", line 85, in training_validating_testing
+    optimizer.step()
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\optim\lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\optim\optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\optim\optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\optim\adam.py", line 234, in step
+    adam(params_with_grad,
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\optim\adam.py", line 300, in adam
+    func(params,
+  File "D:\Anaconda\envs\pytorch0\lib\site-packages\torch\optim\adam.py", line 363, in _single_tensor_adam
+    exp_avg.mul_(beta1).add_(grad, alpha=1 - beta1)
+KeyboardInterrupt
