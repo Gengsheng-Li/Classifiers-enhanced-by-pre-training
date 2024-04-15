@@ -1,0 +1,19 @@
+The model you choosed is: results/linear-probe-best.pth
+Total number of parameters in model: 87900516
+Files already downloaded and verified
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:20<00:00,  7.55it/s]
+CLIP-based Classifier Accuracy on CIFAR-100 Test Dadaset: 79.52%
+Precision: 0.7986
+Recall: 0.7952
+F1 Score: 0.7956
+Confusion matrix saved to results/test/confusion_matrix_1.png

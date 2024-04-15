@@ -1,0 +1,31 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                                               | 0/20 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train_from_pretrain.py", line 183, in <module>
+    main(args)
+  File "train_from_pretrain.py", line 179, in main
+    training_validating_testing(args, classifier, criterion, optimizer, trainloader, valloader, testloader)
+  File "train_from_pretrain.py", line 67, in training_validating_testing
+    outputs = classifier(images)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/Classifiers-enhanced-by-pre-training/model.py", line 22, in forward
+    embedding = self.encoder(x)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/Classifiers-enhanced-by-pre-training/clip/model.py", line 224, in forward
+    x = self.conv1(x)  # shape = [*, width, grid, grid]
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.cuda.HalfTensor) should be the same

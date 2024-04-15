@@ -1,0 +1,50 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|          | 0/200 [00:00<?, ?it/s]
+Epoch: 0, Average Loss: 4.266449041640796, Trn Accuracy: 5.49%, lr: 0.0005
+
+
+  1%|          | 2/200 [07:42<12:44:55, 231.79s/it]
+Epoch: 1, Average Loss: 3.894652368161625, Trn Accuracy: 10.04%, lr: 0.0004998766400914329
+Average Val Loss: 3.7915673497356948, Val_accuracy: 11.35
+Epoch: 2, Average Loss: 3.679686421403489, Trn Accuracy: 13.30%, lr: 0.0004995066821070679
+
+  2%|▏         | 3/200 [11:36<12:44:19, 232.79s/it]
+Epoch: 3, Average Loss: 3.5413851875085802, Trn Accuracy: 15.47%, lr: 0.00049889049115077
+
+  2%|▏         | 4/200 [15:41<12:55:21, 237.35s/it]
+Epoch: 4, Average Loss: nan, Trn Accuracy: 9.18%, lr: 0.0004980286753286195
+
+  2%|▎         | 5/200 [19:41<12:54:55, 238.44s/it]
+Epoch: 5, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.0004969220851487844
+
+
+  4%|▎         | 7/200 [27:26<12:36:40, 235.24s/it]
+Epoch: 6, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.0004955718126821722
+Average Val Loss: nan, Val_accuracy: 1.0
+Epoch: 7, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.0004939791904846868
+
+
+  4%|▍         | 9/200 [35:06<12:20:20, 232.57s/it]
+Epoch: 8, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.0004921457902821577
+
+  5%|▌         | 10/200 [38:58<12:15:11, 232.17s/it]
+Epoch: 9, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.0004900734214192357
+Average Val Loss: nan, Val_accuracy: 1.0
+Epoch: 10, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.00048776412907378835
+
+  6%|▌         | 11/200 [42:52<12:13:06, 232.73s/it]
+Epoch: 11, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.00048522019223855637
+
+
+  6%|▋         | 13/200 [50:20<11:52:29, 228.61s/it]
+Epoch: 12, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.00048244412147206283
+
+  7%|▋         | 14/200 [53:56<11:36:55, 224.81s/it]
+Epoch: 13, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.00047943865642099525
+
+  8%|▊         | 15/200 [57:49<11:40:17, 227.12s/it]
+Epoch: 14, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.0004762067631165049
+
+  8%|▊         | 16/200 [1:01:40<11:40:18, 228.36s/it]
+Epoch: 15, Average Loss: nan, Trn Accuracy: 1.00%, lr: 0.00047275163104709196

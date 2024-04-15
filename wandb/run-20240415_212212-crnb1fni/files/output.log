@@ -1,0 +1,20 @@
+
+NOTE: You are using zero-shot mode of pre-trained CLIP ViT-B/32 for classification!
+Files already downloaded and verified
+
+
+
+
+
+
+
+
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 154/157 [00:19<00:00,  8.11it/s]
+CLIP Zero-Shot Accuracy on CIFAR-100 Test Dadaset: 40.32%
+Precision: 0.7099
+Recall: 0.4032
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:19<00:00,  7.92it/s]
+/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Confusion matrix saved to results/test/confusion_matrix_3.png

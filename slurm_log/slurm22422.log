@@ -1,0 +1,234 @@
+wandb: Currently logged in as: ligengchengucd (BDIC-DMML-2024). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.16.6
+wandb: Run data is saved locally in /data0/user/gsli/Classifiers-enhanced-by-pre-training/wandb/run-20240415_124753-i9mv3pw6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run laced-totem-60
+wandb: ⭐️ View project at https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification
+wandb: 🚀 View run at https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification/runs/i9mv3pw6
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [02:34<4:14:08, 154.02s/it]  2%|▏         | 2/100 [05:19<4:22:18, 160.60s/it]  3%|▎         | 3/100 [08:02<4:21:27, 161.73s/it]  4%|▍         | 4/100 [10:45<4:19:36, 162.26s/it]  5%|▌         | 5/100 [13:26<4:16:22, 161.93s/it]  6%|▌         | 6/100 [16:01<4:09:45, 159.42s/it]  7%|▋         | 7/100 [18:46<4:10:16, 161.47s/it]  8%|▊         | 8/100 [21:24<4:05:50, 160.33s/it]  9%|▉         | 9/100 [24:02<4:01:41, 159.36s/it] 10%|█         | 10/100 [26:42<3:59:35, 159.73s/it] 11%|█         | 11/100 [29:20<3:55:52, 159.02s/it] 12%|█▏        | 12/100 [31:55<3:51:36, 157.92s/it] 13%|█▎        | 13/100 [34:43<3:53:35, 161.09s/it] 14%|█▍        | 14/100 [37:26<3:51:36, 161.58s/it] 15%|█▌        | 15/100 [40:02<3:46:26, 159.84s/it] 16%|█▌        | 16/100 [42:50<3:47:07, 162.23s/it] 17%|█▋        | 17/100 [45:33<3:44:48, 162.51s/it] 18%|█▊        | 18/100 [48:17<3:42:51, 163.07s/it] 19%|█▉        | 19/100 [50:59<3:39:27, 162.56s/it] 20%|██        | 20/100 [53:34<3:33:49, 160.37s/it] 21%|██        | 21/100 [56:16<3:32:03, 161.06s/it] 22%|██▏       | 22/100 [59:01<3:30:40, 162.06s/it] 23%|██▎       | 23/100 [1:01:41<3:27:11, 161.45s/it] 24%|██▍       | 24/100 [1:04:25<3:25:24, 162.17s/it] 25%|██▌       | 25/100 [1:07:03<3:21:22, 161.09s/it] 26%|██▌       | 26/100 [1:09:46<3:19:09, 161.49s/it] 27%|██▋       | 27/100 [1:12:31<3:17:53, 162.65s/it] 28%|██▊       | 28/100 [1:15:13<3:14:44, 162.29s/it] 29%|██▉       | 29/100 [1:17:47<3:09:13, 159.90s/it] 30%|███       | 30/100 [1:20:33<3:08:54, 161.91s/it] 31%|███       | 31/100 [1:23:17<3:06:47, 162.43s/it] 32%|███▏      | 32/100 [1:25:54<3:02:14, 160.80s/it] 33%|███▎      | 33/100 [1:28:43<3:02:09, 163.12s/it] 34%|███▍      | 34/100 [1:31:21<2:57:54, 161.73s/it] 35%|███▌      | 35/100 [1:33:57<2:53:17, 159.97s/it] 36%|███▌      | 36/100 [1:36:41<2:51:58, 161.22s/it] 37%|███▋      | 37/100 [1:39:30<2:51:36, 163.44s/it] 38%|███▊      | 38/100 [1:42:16<2:49:47, 164.31s/it] 39%|███▉      | 39/100 [1:45:03<2:47:46, 165.02s/it] 40%|████      | 40/100 [1:47:43<2:43:44, 163.73s/it] 41%|████      | 41/100 [1:50:26<2:40:42, 163.43s/it] 42%|████▏     | 42/100 [1:53:13<2:39:04, 164.55s/it] 43%|████▎     | 43/100 [1:55:59<2:36:33, 164.79s/it] 44%|████▍     | 44/100 [1:58:42<2:33:28, 164.43s/it] 45%|████▌     | 45/100 [2:01:18<2:28:25, 161.91s/it] 46%|████▌     | 46/100 [2:04:00<2:25:34, 161.75s/it] 47%|████▋     | 47/100 [2:06:39<2:22:14, 161.02s/it] 48%|████▊     | 48/100 [2:09:26<2:21:07, 162.84s/it] 49%|████▉     | 49/100 [2:12:14<2:19:40, 164.33s/it] 50%|█████     | 50/100 [2:14:56<2:16:17, 163.55s/it] 51%|█████     | 51/100 [2:17:40<2:13:51, 163.91s/it] 52%|█████▏    | 52/100 [2:20:29<2:12:16, 165.33s/it] 53%|█████▎    | 53/100 [2:23:09<2:08:18, 163.80s/it] 54%|█████▍    | 54/100 [2:25:51<2:05:03, 163.12s/it] 55%|█████▌    | 55/100 [2:28:36<2:02:44, 163.65s/it] 56%|█████▌    | 56/100 [2:31:23<2:00:47, 164.73s/it] 57%|█████▋    | 57/100 [2:34:10<1:58:30, 165.36s/it] 58%|█████▊    | 58/100 [2:36:53<1:55:12, 164.59s/it] 59%|█████▉    | 59/100 [2:39:31<1:51:08, 162.65s/it] 60%|██████    | 60/100 [2:42:08<1:47:21, 161.03s/it] 61%|██████    | 61/100 [2:44:50<1:44:47, 161.22s/it] 62%|██████▏   | 62/100 [2:47:35<1:42:53, 162.46s/it] 63%|██████▎   | 63/100 [2:50:14<1:39:37, 161.56s/it] 64%|██████▍   | 64/100 [2:53:02<1:37:56, 163.25s/it] 65%|██████▌   | 65/100 [2:55:42<1:34:44, 162.42s/it] 66%|██████▌   | 66/100 [2:58:22<1:31:34, 161.62s/it] 67%|██████▋   | 67/100 [3:01:01<1:28:28, 160.86s/it] 68%|██████▊   | 68/100 [3:03:39<1:25:20, 160.02s/it] 69%|██████▉   | 69/100 [3:06:20<1:22:49, 160.31s/it] 70%|███████   | 70/100 [3:09:08<1:21:21, 162.70s/it] 71%|███████   | 71/100 [3:11:52<1:18:49, 163.09s/it] 72%|███████▏  | 72/100 [3:14:33<1:15:48, 162.44s/it] 73%|███████▎  | 73/100 [3:17:13<1:12:41, 161.52s/it] 74%|███████▍  | 74/100 [3:19:47<1:09:02, 159.34s/it] 75%|███████▌  | 75/100 [3:22:27<1:06:26, 159.47s/it] 76%|███████▌  | 76/100 [3:25:09<1:04:08, 160.34s/it] 77%|███████▋  | 77/100 [3:27:47<1:01:09, 159.56s/it] 78%|███████▊  | 78/100 [3:30:33<59:14, 161.56s/it]   79%|███████▉  | 79/100 [3:33:15<56:37, 161.78s/it] 80%|████████  | 80/100 [3:35:55<53:44, 161.23s/it] 81%|████████  | 81/100 [3:38:38<51:09, 161.58s/it] 82%|████████▏ | 82/100 [3:41:18<48:19, 161.09s/it] 83%|████████▎ | 83/100 [3:43:55<45:19, 159.97s/it] 84%|████████▍ | 84/100 [3:46:39<43:01, 161.33s/it] 85%|████████▌ | 85/100 [3:49:18<40:08, 160.57s/it] 86%|████████▌ | 86/100 [3:51:58<37:26, 160.48s/it] 87%|████████▋ | 87/100 [3:54:43<35:03, 161.78s/it] 88%|████████▊ | 88/100 [3:57:21<32:08, 160.67s/it] 89%|████████▉ | 89/100 [4:00:04<29:34, 161.32s/it] 90%|█████████ | 90/100 [4:02:42<26:42, 160.30s/it] 91%|█████████ | 91/100 [4:05:23<24:03, 160.34s/it] 92%|█████████▏| 92/100 [4:08:03<21:24, 160.51s/it] 93%|█████████▎| 93/100 [4:10:43<18:41, 160.18s/it] 94%|█████████▍| 94/100 [4:13:30<16:14, 162.36s/it] 95%|█████████▌| 95/100 [4:16:19<13:41, 164.29s/it] 96%|█████████▌| 96/100 [4:19:03<10:56, 164.10s/it] 97%|█████████▋| 97/100 [4:21:43<08:09, 163.08s/it] 98%|█████████▊| 98/100 [4:24:26<05:26, 163.05s/it] 99%|█████████▉| 99/100 [4:27:08<02:42, 162.69s/it]100%|██████████| 100/100 [4:29:52<00:00, 162.86s/it]100%|██████████| 100/100 [4:29:52<00:00, 161.92s/it]
+Epoch: 0, Average Loss: 4.1719833319179545, Trn Accuracy: 6.96%, lr: 5e-06
+Average Val Loss: 3.963872538337225, Val Accuracy: 10.32
+Epoch: 1, Average Loss: 3.7780411487189345, Trn Accuracy: 12.68%, lr: 4.9950668210706795e-06
+Average Val Loss: 3.705049843727788, Val Accuracy: 13.92
+Epoch: 2, Average Loss: 3.53267387460215, Trn Accuracy: 16.93%, lr: 4.980286753286196e-06
+Average Val Loss: 3.5353935187376, Val Accuracy: 17.39
+Epoch: 3, Average Loss: 3.330140830609745, Trn Accuracy: 20.49%, lr: 4.9557181268217225e-06
+Average Val Loss: 3.3721442645109154, Val Accuracy: 20.61
+Epoch: 4, Average Loss: 3.1377488150002475, Trn Accuracy: 24.18%, lr: 4.921457902821578e-06
+Average Val Loss: 3.2088548382626305, Val Accuracy: 23.56
+Epoch: 5, Average Loss: 2.9703239861387796, Trn Accuracy: 27.42%, lr: 4.8776412907378845e-06
+Average Val Loss: 3.1068169044542917, Val Accuracy: 25.29
+Epoch: 6, Average Loss: 2.818840845705221, Trn Accuracy: 30.84%, lr: 4.824441214720629e-06
+Average Val Loss: 3.019458321076405, Val Accuracy: 26.4
+Epoch: 7, Average Loss: 2.6757146177200464, Trn Accuracy: 33.65%, lr: 4.76206763116505e-06
+Average Val Loss: 2.960093993174879, Val Accuracy: 28.47
+Epoch: 8, Average Loss: 2.54113650931337, Trn Accuracy: 36.95%, lr: 4.690766700109659e-06
+Average Val Loss: 2.914949157569982, Val Accuracy: 29.21
+Epoch: 9, Average Loss: 2.4096051123195563, Trn Accuracy: 40.03%, lr: 4.610819813755038e-06
+Average Val Loss: 2.8818848555601098, Val Accuracy: 29.12
+Epoch: 10, Average Loss: 2.277357151713996, Trn Accuracy: 43.07%, lr: 4.522542485937369e-06
+Average Val Loss: 2.8395988186703454, Val Accuracy: 31.04
+Epoch: 11, Average Loss: 2.1484841534885737, Trn Accuracy: 46.19%, lr: 4.426283106939474e-06
+Average Val Loss: 2.8123247140570533, Val Accuracy: 30.94
+Epoch: 12, Average Loss: 2.0212931667273035, Trn Accuracy: 49.79%, lr: 4.322421568553529e-06
+Average Val Loss: 2.7969221857529654, Val Accuracy: 31.56
+Epoch: 13, Average Loss: 1.8838707897990656, Trn Accuracy: 53.47%, lr: 4.211367764821722e-06
+Average Val Loss: 2.7535988016973567, Val Accuracy: 32.5
+Epoch: 14, Average Loss: 1.761483896654635, Trn Accuracy: 56.81%, lr: 4.093559974371725e-06
+Average Val Loss: 2.7665960999983774, Val Accuracy: 32.14
+Epoch: 15, Average Loss: 1.629042636091336, Trn Accuracy: 60.79%, lr: 3.969463130731184e-06
+Average Val Loss: 2.7388287133808378, Val Accuracy: 32.7
+Epoch: 16, Average Loss: 1.5108441175363314, Trn Accuracy: 64.01%, lr: 3.839566987447492e-06
+Average Val Loss: 2.750504173809969, Val Accuracy: 32.99
+Epoch: 17, Average Loss: 1.3785352268919777, Trn Accuracy: 68.07%, lr: 3.704384185254289e-06
+Average Val Loss: 2.7696389548386198, Val Accuracy: 33.21
+Epoch: 18, Average Loss: 1.2571283681704974, Trn Accuracy: 71.56%, lr: 3.564448228912682e-06
+Average Val Loss: 2.757468178302427, Val Accuracy: 33.02
+Epoch: 19, Average Loss: 1.1393930416899367, Trn Accuracy: 75.02%, lr: 3.4203113817116955e-06
+Average Val Loss: 2.7798125321352027, Val Accuracy: 33.08
+Epoch: 20, Average Loss: 1.0247715526876358, Trn Accuracy: 78.58%, lr: 3.272542485937369e-06
+Average Val Loss: 2.8158955664574346, Val Accuracy: 33.05
+Epoch: 21, Average Loss: 0.9157046704246594, Trn Accuracy: 81.74%, lr: 3.121724717912137e-06
+Average Val Loss: 2.8148238206211524, Val Accuracy: 33.47
+Epoch: 22, Average Loss: 0.8193434016011394, Trn Accuracy: 84.69%, lr: 2.9684532864643123e-06
+Average Val Loss: 2.8607669208623188, Val Accuracy: 32.67
+Epoch: 23, Average Loss: 0.7271956435788554, Trn Accuracy: 87.18%, lr: 2.8133330839107617e-06
+Average Val Loss: 2.8560681765592553, Val Accuracy: 33.29
+Epoch: 24, Average Loss: 0.6440726905204237, Trn Accuracy: 89.36%, lr: 2.656976298823284e-06
+Average Val Loss: 2.8815612943866586, Val Accuracy: 32.79
+Epoch: 25, Average Loss: 0.5740751185165808, Trn Accuracy: 91.03%, lr: 2.5000000000000006e-06
+Average Val Loss: 2.902637952490698, Val Accuracy: 33.29
+Epoch: 26, Average Loss: 0.5028481193053456, Trn Accuracy: 92.81%, lr: 2.343023701176717e-06
+Average Val Loss: 2.9318713417536095, Val Accuracy: 33.19
+Epoch: 27, Average Loss: 0.4441677146255018, Trn Accuracy: 94.05%, lr: 2.18666691608924e-06
+Average Val Loss: 2.9630594796772245, Val Accuracy: 33.01
+Epoch: 28, Average Loss: 0.39646355107950326, Trn Accuracy: 94.99%, lr: 2.031546713535689e-06
+Average Val Loss: 2.971304718452164, Val Accuracy: 32.7
+Epoch: 29, Average Loss: 0.35214335649919964, Trn Accuracy: 95.84%, lr: 1.8782752820878634e-06
+Average Val Loss: 3.0036968520925016, Val Accuracy: 32.6
+Epoch: 30, Average Loss: 0.3127621879783301, Trn Accuracy: 96.67%, lr: 1.7274575140626328e-06
+Average Val Loss: 3.0155100067959557, Val Accuracy: 32.78
+Epoch: 31, Average Loss: 0.2804195780437975, Trn Accuracy: 97.16%, lr: 1.5796886182883064e-06
+Average Val Loss: 3.0353751665429223, Val Accuracy: 32.85
+Epoch: 32, Average Loss: 0.25290503450475943, Trn Accuracy: 97.50%, lr: 1.4355517710873189e-06
+Average Val Loss: 3.0601357568668415, Val Accuracy: 32.67
+Epoch: 33, Average Loss: 0.22990884777075185, Trn Accuracy: 97.90%, lr: 1.2956158147457118e-06
+Average Val Loss: 3.064507179622409, Val Accuracy: 32.77
+Epoch: 34, Average Loss: 0.2090842224919377, Trn Accuracy: 98.16%, lr: 1.1604330125525082e-06
+Average Val Loss: 3.0925930089588407, Val Accuracy: 32.38
+Epoch: 35, Average Loss: 0.19034874344024413, Trn Accuracy: 98.43%, lr: 1.0305368692688177e-06
+Average Val Loss: 3.091826942902577, Val Accuracy: 32.72
+Epoch: 36, Average Loss: 0.1762525321671757, Trn Accuracy: 98.62%, lr: 9.064400256282758e-07
+Average Val Loss: 3.1227393934998333, Val Accuracy: 32.46
+Epoch: 37, Average Loss: 0.16185473505490885, Trn Accuracy: 98.77%, lr: 7.886322351782784e-07
+Average Val Loss: 3.1249369760102863, Val Accuracy: 32.24
+Epoch: 38, Average Loss: 0.15149100370014817, Trn Accuracy: 98.84%, lr: 6.775784314464719e-07
+Average Val Loss: 3.1317544164536875, Val Accuracy: 32.66
+Epoch: 39, Average Loss: 0.14201542970757133, Trn Accuracy: 99.00%, lr: 5.737168930605274e-07
+Average Val Loss: 3.143927894061125, Val Accuracy: 32.6
+Epoch: 40, Average Loss: 0.13408745268282418, Trn Accuracy: 99.10%, lr: 4.774575140626319e-07
+Average Val Loss: 3.1522234602819514, Val Accuracy: 32.4
+Epoch: 41, Average Loss: 0.12783518650185186, Trn Accuracy: 99.20%, lr: 3.891801862449631e-07
+Average Val Loss: 3.164049540893941, Val Accuracy: 32.56
+Epoch: 42, Average Loss: 0.12232087255000307, Trn Accuracy: 99.22%, lr: 3.0923329989034124e-07
+Average Val Loss: 3.1643038037457045, Val Accuracy: 32.52
+Epoch: 43, Average Loss: 0.11789892183039516, Trn Accuracy: 99.29%, lr: 2.3793236883495177e-07
+Average Val Loss: 3.1701759356486647, Val Accuracy: 32.53
+Epoch: 44, Average Loss: 0.11440257202036465, Trn Accuracy: 99.33%, lr: 1.7555878527937175e-07
+Average Val Loss: 3.17285972305491, Val Accuracy: 32.55
+Epoch: 45, Average Loss: 0.11135513637774287, Trn Accuracy: 99.37%, lr: 1.2235870926211625e-07
+Average Val Loss: 3.1723340553573416, Val Accuracy: 32.66
+Epoch: 46, Average Loss: 0.10914182824829516, Trn Accuracy: 99.39%, lr: 7.854209717842263e-08
+Average Val Loss: 3.175006347366526, Val Accuracy: 32.53
+Epoch: 47, Average Loss: 0.10769496786708649, Trn Accuracy: 99.43%, lr: 4.428187317827822e-08
+Average Val Loss: 3.1740136267263677, Val Accuracy: 32.63
+Epoch: 48, Average Loss: 0.10646055653072393, Trn Accuracy: 99.47%, lr: 1.9713246713805598e-08
+Average Val Loss: 3.174688013294075, Val Accuracy: 32.68
+Epoch: 49, Average Loss: 0.10581147963532243, Trn Accuracy: 99.45%, lr: 4.933178929321105e-09
+Average Val Loss: 3.174550660048859, Val Accuracy: 32.61
+Epoch: 50, Average Loss: 0.10558046698094176, Trn Accuracy: 99.47%, lr: 0.0
+Average Val Loss: 3.174550660048859, Val Accuracy: 32.61
+Epoch: 51, Average Loss: 0.10572097724238143, Trn Accuracy: 99.46%, lr: 4.933178929321103e-09
+Average Val Loss: 3.174499544916274, Val Accuracy: 32.64
+Epoch: 52, Average Loss: 0.10611543673486375, Trn Accuracy: 99.45%, lr: 1.971324671380531e-08
+Average Val Loss: 3.1755018958562538, Val Accuracy: 32.63
+Epoch: 53, Average Loss: 0.10654274700358272, Trn Accuracy: 99.45%, lr: 4.4281873178278474e-08
+Average Val Loss: 3.1774044610277006, Val Accuracy: 32.59
+Epoch: 54, Average Loss: 0.10701201287226174, Trn Accuracy: 99.42%, lr: 7.854209717842203e-08
+Average Val Loss: 3.179976077019414, Val Accuracy: 32.45
+Epoch: 55, Average Loss: 0.10723400996706356, Trn Accuracy: 99.42%, lr: 1.223587092621159e-07
+Average Val Loss: 3.1839298568194425, Val Accuracy: 32.48
+Epoch: 56, Average Loss: 0.10739410501985124, Trn Accuracy: 99.38%, lr: 1.7555878527937135e-07
+Average Val Loss: 3.187553595892991, Val Accuracy: 32.36
+Epoch: 57, Average Loss: 0.10721326743166287, Trn Accuracy: 99.36%, lr: 2.3793236883495076e-07
+Average Val Loss: 3.194110752661017, Val Accuracy: 32.48
+Epoch: 58, Average Loss: 0.10662561309889863, Trn Accuracy: 99.38%, lr: 3.092332998903413e-07
+Average Val Loss: 3.2023875532270987, Val Accuracy: 32.44
+Epoch: 59, Average Loss: 0.10547429113723218, Trn Accuracy: 99.36%, lr: 3.89180186244962e-07
+Average Val Loss: 3.215577249285541, Val Accuracy: 32.2
+Epoch: 60, Average Loss: 0.10416030079221573, Trn Accuracy: 99.35%, lr: 4.774575140626305e-07
+Average Val Loss: 3.225820133957682, Val Accuracy: 32.4
+Epoch: 61, Average Loss: 0.10288544391957335, Trn Accuracy: 99.30%, lr: 5.737168930605268e-07
+Average Val Loss: 3.239803450017036, Val Accuracy: 32.13
+Epoch: 62, Average Loss: 0.10016565398571971, Trn Accuracy: 99.34%, lr: 6.775784314464705e-07
+Average Val Loss: 3.253578608549094, Val Accuracy: 32.16
+Epoch: 63, Average Loss: 0.09809840170624919, Trn Accuracy: 99.34%, lr: 7.886322351782783e-07
+Average Val Loss: 3.267394198647028, Val Accuracy: 31.99
+Epoch: 64, Average Loss: 0.09387475241439792, Trn Accuracy: 99.35%, lr: 9.064400256282759e-07
+Average Val Loss: 3.30081847045995, Val Accuracy: 32.01
+Epoch: 65, Average Loss: 0.09221204215535722, Trn Accuracy: 99.31%, lr: 1.0305368692688166e-06
+Average Val Loss: 3.3091999518720407, Val Accuracy: 31.72
+Epoch: 66, Average Loss: 0.08932125907593642, Trn Accuracy: 99.29%, lr: 1.160433012552509e-06
+Average Val Loss: 3.3421748740763606, Val Accuracy: 31.92
+Epoch: 67, Average Loss: 0.08379234857976246, Trn Accuracy: 99.34%, lr: 1.2956158147457118e-06
+Average Val Loss: 3.368836949143229, Val Accuracy: 31.65
+Epoch: 68, Average Loss: 0.08082500792825564, Trn Accuracy: 99.34%, lr: 1.4355517710873193e-06
+Average Val Loss: 3.386107800882074, Val Accuracy: 32.21
+Epoch: 69, Average Loss: 0.07992624835417675, Trn Accuracy: 99.33%, lr: 1.5796886182883051e-06
+Average Val Loss: 3.4020089620276344, Val Accuracy: 32.11
+Epoch: 70, Average Loss: 0.07271317775828388, Trn Accuracy: 99.39%, lr: 1.7274575140626307e-06
+Average Val Loss: 3.438630807248852, Val Accuracy: 31.96
+Epoch: 71, Average Loss: 0.07423491083299771, Trn Accuracy: 99.24%, lr: 1.8782752820878636e-06
+Average Val Loss: 3.502984324588051, Val Accuracy: 31.03
+Epoch: 72, Average Loss: 0.06759906141236187, Trn Accuracy: 99.39%, lr: 2.031546713535688e-06
+Average Val Loss: 3.492420187479333, Val Accuracy: 31.89
+Epoch: 73, Average Loss: 0.06624994435297034, Trn Accuracy: 99.33%, lr: 2.186666916089238e-06
+Average Val Loss: 3.511456649514693, Val Accuracy: 31.6
+Epoch: 74, Average Loss: 0.05840985238932954, Trn Accuracy: 99.40%, lr: 2.3430237011767162e-06
+Average Val Loss: 3.5517060907581186, Val Accuracy: 31.65
+Epoch: 75, Average Loss: 0.06202609910846899, Trn Accuracy: 99.32%, lr: 2.499999999999999e-06
+Average Val Loss: 3.6216232595564444, Val Accuracy: 30.91
+Epoch: 76, Average Loss: 0.0686967322192253, Trn Accuracy: 99.21%, lr: 2.6569762988232816e-06
+Average Val Loss: 3.5978780366197416, Val Accuracy: 30.92
+Epoch: 77, Average Loss: 0.06084076318735132, Trn Accuracy: 99.28%, lr: 2.8133330839107604e-06
+Average Val Loss: 3.6608404871783677, Val Accuracy: 31.09
+Epoch: 78, Average Loss: 0.05022712996878182, Trn Accuracy: 99.42%, lr: 2.9684532864643106e-06
+Average Val Loss: 3.7120681110816665, Val Accuracy: 31.05
+Epoch: 79, Average Loss: 0.06027560722761261, Trn Accuracy: 99.23%, lr: 3.1217247179121366e-06
+Average Val Loss: 3.7525835640822787, Val Accuracy: 30.88
+Epoch: 80, Average Loss: 0.05930631233456607, Trn Accuracy: 99.21%, lr: 3.2725424859373676e-06
+Average Val Loss: 3.7610033916521677, Val Accuracy: 30.49
+Epoch: 81, Average Loss: 0.052132904333190414, Trn Accuracy: 99.38%, lr: 3.4203113817116934e-06
+Average Val Loss: 3.781812006914163, Val Accuracy: 30.99
+Epoch: 82, Average Loss: 0.03929390836828433, Trn Accuracy: 99.47%, lr: 3.5644482289126794e-06
+Average Val Loss: 3.824958834467055, Val Accuracy: 30.78
+Epoch: 83, Average Loss: 0.042834668125683505, Trn Accuracy: 99.41%, lr: 3.704384185254289e-06
+Average Val Loss: 3.85076904296875, Val Accuracy: 30.55
+Epoch: 84, Average Loss: 0.1155503983386218, Trn Accuracy: 98.05%, lr: 3.839566987447492e-06
+Average Val Loss: 3.8252407206764705, Val Accuracy: 31.02
+Epoch: 85, Average Loss: 0.027937087599342814, Trn Accuracy: 99.65%, lr: 3.969463130731182e-06
+Average Val Loss: 3.8205390217938002, Val Accuracy: 31.97
+Epoch: 86, Average Loss: 0.030185484675506052, Trn Accuracy: 99.58%, lr: 4.093559974371723e-06
+Average Val Loss: 3.890826671938353, Val Accuracy: 30.77
+Epoch: 87, Average Loss: 0.056807602220140516, Trn Accuracy: 99.19%, lr: 4.21136776482172e-06
+Average Val Loss: 3.923775359045101, Val Accuracy: 30.34
+Epoch: 88, Average Loss: 0.04471919782007464, Trn Accuracy: 99.38%, lr: 4.322421568553528e-06
+Average Val Loss: 3.9418366528764555, Val Accuracy: 30.74
+Epoch: 89, Average Loss: 0.07124203446205146, Trn Accuracy: 98.73%, lr: 4.426283106939474e-06
+Average Val Loss: 3.9620786558223675, Val Accuracy: 29.84
+Epoch: 90, Average Loss: 0.05771559916329555, Trn Accuracy: 99.08%, lr: 4.522542485937368e-06
+Average Val Loss: 3.9935871830469445, Val Accuracy: 30.83
+Epoch: 91, Average Loss: 0.02118194459553677, Trn Accuracy: 99.68%, lr: 4.610819813755037e-06
+Average Val Loss: 4.035263891461529, Val Accuracy: 30.74
+Epoch: 92, Average Loss: 0.027234319972392087, Trn Accuracy: 99.59%, lr: 4.690766700109658e-06
+Average Val Loss: 3.987212428563758, Val Accuracy: 31.74
+Epoch: 93, Average Loss: 0.09540289788605116, Trn Accuracy: 97.98%, lr: 4.762067631165048e-06
+Average Val Loss: 4.065627605100222, Val Accuracy: 28.69
+Epoch: 94, Average Loss: 0.0479439287937392, Trn Accuracy: 99.20%, lr: 4.824441214720628e-06
+Average Val Loss: 3.9699982993210416, Val Accuracy: 31.78
+Epoch: 95, Average Loss: 0.015941701488741956, Trn Accuracy: 99.75%, lr: 4.877641290737884e-06
+Average Val Loss: 4.039421015147921, Val Accuracy: 31.08
+Epoch: 96, Average Loss: 0.024077784307241536, Trn Accuracy: 99.61%, lr: 4.921457902821577e-06
+Average Val Loss: 4.135604758805867, Val Accuracy: 30.24
+Epoch: 97, Average Loss: 0.11102988270703501, Trn Accuracy: 97.73%, lr: 4.955718126821721e-06
+Average Val Loss: 4.109412561489057, Val Accuracy: 29.9
+Epoch: 98, Average Loss: 0.015779421904299873, Trn Accuracy: 99.80%, lr: 4.980286753286193e-06
+Average Val Loss: 4.02639299404772, Val Accuracy: 32.21
+Epoch: 99, Average Loss: 0.011694361790479087, Trn Accuracy: 99.79%, lr: 4.995066821070678e-06
+Average Val Loss: 4.10375157790848, Val Accuracy: 31.34
+Accuracy on the 10000 test images: 30.43%
+wandb: - 0.013 MB of 0.013 MB uploadedwandb: \ 0.013 MB of 0.013 MB uploadedwandb: | 0.013 MB of 0.013 MB uploadedwandb: / 0.013 MB of 0.013 MB uploadedwandb: - 0.013 MB of 0.013 MB uploadedwandb: \ 0.016 MB of 0.033 MB uploaded (0.001 MB deduped)wandb: | 0.016 MB of 0.034 MB uploaded (0.001 MB deduped)wandb: / 0.034 MB of 0.034 MB uploaded (0.001 MB deduped)wandb: - 0.034 MB of 0.034 MB uploaded (0.001 MB deduped)wandb: 
+wandb: Run history:
+wandb:     average_loss █▇▆▅▅▄▄▃▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: average_val_loss ▇▅▃▂▂▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▆▆▇▇▇▇███
+wandb:            epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:               lr ████▇▇▇▆▆▅▅▄▃▃▂▂▂▁▁▁▁▁▁▁▂▂▃▃▄▄▅▅▆▆▇▇▇███
+wandb:    test_accuracy ▁
+wandb:     trn_accuracy ▁▂▃▃▄▄▅▆▆▇▇█████████████████████████████
+wandb:     val_accuracy ▁▃▆▇▇▇██████████████████████▇▇▇▇▇▇▇▇▇▇▇▇
+wandb: 
+wandb: Run summary:
+wandb:     average_loss 0.01169
+wandb: average_val_loss 4.10375
+wandb:            epoch 99
+wandb:               lr 0.0
+wandb:    test_accuracy 30.43
+wandb:     trn_accuracy 99.7925
+wandb:     val_accuracy 31.34
+wandb: 
+wandb: 🚀 View run laced-totem-60 at: https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification/runs/i9mv3pw6
+wandb: ⭐️ View project at: https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification
+wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240415_124753-i9mv3pw6/logs

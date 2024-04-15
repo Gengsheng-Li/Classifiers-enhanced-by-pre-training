@@ -1,0 +1,189 @@
+wandb: W&B API key is configured. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: | Waiting for wandb.init()...wandb: / Waiting for wandb.init()...wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.16.6
+wandb: Run data is saved locally in /data0/user/gsli/Classifiers-enhanced-by-pre-training/wandb/run-20240415_221802-iiuju6ew
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run comfy-grass-68
+wandb: ⭐️ View project at https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification
+wandb: 🚀 View run at https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification/runs/iiuju6ew
+The model you choosed is: results/fine-tune-best.pth
+Total number of parameters in model: 87900516
+Checking...
+Layer: encoder.class_embedding | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.positional_embedding | Size: torch.Size([50, 768]) | Type: torch.float32
+Layer: encoder.proj | Size: torch.Size([768, 512]) | Type: torch.float32
+Layer: encoder.conv1.weight | Size: torch.Size([768, 3, 32, 32]) | Type: torch.float32
+Layer: encoder.ln_pre.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.ln_pre.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.ln_post.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.ln_post.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: fc.weight | Size: torch.Size([100, 512]) | Type: torch.float32
+Layer: fc.bias | Size: torch.Size([100]) | Type: torch.float32
+All parameters are float32: True
+Files already downloaded and verified
+  0%|          | 0/157 [00:00<?, ?it/s]  1%|          | 1/157 [00:03<09:37,  3.70s/it]  1%|▏         | 2/157 [00:03<04:18,  1.67s/it]  2%|▏         | 3/157 [00:04<02:33,  1.01it/s]  3%|▎         | 4/157 [00:04<01:42,  1.50it/s]  3%|▎         | 5/157 [00:04<01:14,  2.04it/s]  4%|▍         | 6/157 [00:04<00:56,  2.66it/s]  4%|▍         | 7/157 [00:04<00:45,  3.31it/s]  5%|▌         | 8/157 [00:04<00:38,  3.85it/s]  6%|▌         | 9/157 [00:05<00:35,  4.17it/s]  6%|▋         | 10/157 [00:05<00:31,  4.65it/s]  7%|▋         | 11/157 [00:05<00:31,  4.69it/s]  8%|▊         | 12/157 [00:05<00:31,  4.55it/s]  8%|▊         | 13/157 [00:06<00:43,  3.33it/s]  9%|▉         | 14/157 [00:06<00:49,  2.92it/s] 10%|▉         | 15/157 [00:06<00:42,  3.34it/s] 10%|█         | 16/157 [00:07<00:45,  3.11it/s] 11%|█         | 17/157 [00:07<00:38,  3.68it/s] 11%|█▏        | 18/157 [00:07<00:39,  3.55it/s] 12%|█▏        | 19/157 [00:07<00:33,  4.07it/s] 13%|█▎        | 20/157 [00:08<00:30,  4.46it/s] 13%|█▎        | 21/157 [00:08<00:28,  4.84it/s] 14%|█▍        | 22/157 [00:08<00:25,  5.25it/s] 15%|█▍        | 23/157 [00:08<00:25,  5.26it/s] 15%|█▌        | 24/157 [00:08<00:24,  5.32it/s] 16%|█▌        | 25/157 [00:08<00:25,  5.17it/s] 17%|█▋        | 26/157 [00:09<00:37,  3.46it/s] 17%|█▋        | 27/157 [00:09<00:33,  3.88it/s] 18%|█▊        | 28/157 [00:09<00:29,  4.39it/s] 18%|█▊        | 29/157 [00:09<00:26,  4.74it/s] 19%|█▉        | 30/157 [00:10<00:24,  5.12it/s] 20%|█▉        | 31/157 [00:10<00:24,  5.18it/s] 20%|██        | 32/157 [00:10<00:22,  5.45it/s] 21%|██        | 33/157 [00:10<00:22,  5.53it/s] 22%|██▏       | 34/157 [00:10<00:21,  5.62it/s] 22%|██▏       | 35/157 [00:10<00:20,  5.83it/s] 23%|██▎       | 36/157 [00:11<00:21,  5.66it/s] 24%|██▎       | 37/157 [00:11<00:20,  5.80it/s] 24%|██▍       | 38/157 [00:11<00:21,  5.44it/s] 25%|██▍       | 39/157 [00:11<00:21,  5.56it/s] 25%|██▌       | 40/157 [00:11<00:19,  5.90it/s] 26%|██▌       | 41/157 [00:12<00:21,  5.44it/s] 27%|██▋       | 42/157 [00:12<00:21,  5.31it/s] 27%|██▋       | 43/157 [00:12<00:21,  5.27it/s] 28%|██▊       | 44/157 [00:12<00:20,  5.46it/s] 29%|██▊       | 45/157 [00:12<00:21,  5.12it/s] 29%|██▉       | 46/157 [00:13<00:21,  5.08it/s] 30%|██▉       | 47/157 [00:13<00:21,  5.14it/s] 31%|███       | 48/157 [00:13<00:19,  5.45it/s] 31%|███       | 49/157 [00:13<00:18,  5.70it/s] 32%|███▏      | 50/157 [00:13<00:19,  5.53it/s] 32%|███▏      | 51/157 [00:13<00:19,  5.47it/s] 33%|███▎      | 52/157 [00:14<00:19,  5.50it/s] 34%|███▍      | 53/157 [00:14<00:19,  5.29it/s] 34%|███▍      | 54/157 [00:14<00:25,  4.00it/s] 35%|███▌      | 55/157 [00:14<00:23,  4.43it/s] 36%|███▌      | 56/157 [00:15<00:22,  4.56it/s] 36%|███▋      | 57/157 [00:15<00:20,  4.83it/s] 37%|███▋      | 58/157 [00:15<00:19,  5.17it/s] 38%|███▊      | 59/157 [00:15<00:18,  5.22it/s] 38%|███▊      | 60/157 [00:15<00:17,  5.51it/s] 39%|███▉      | 61/157 [00:15<00:17,  5.45it/s] 39%|███▉      | 62/157 [00:16<00:18,  5.27it/s] 40%|████      | 63/157 [00:16<00:18,  5.16it/s] 41%|████      | 64/157 [00:16<00:17,  5.43it/s] 41%|████▏     | 65/157 [00:16<00:17,  5.36it/s] 42%|████▏     | 66/157 [00:16<00:16,  5.59it/s] 43%|████▎     | 67/157 [00:17<00:15,  5.94it/s] 43%|████▎     | 68/157 [00:17<00:17,  5.15it/s] 44%|████▍     | 69/157 [00:18<00:39,  2.25it/s] 45%|████▍     | 70/157 [00:18<00:31,  2.74it/s] 45%|████▌     | 71/157 [00:18<00:25,  3.32it/s] 46%|████▌     | 72/157 [00:18<00:22,  3.77it/s] 46%|████▋     | 73/157 [00:19<00:20,  4.11it/s] 47%|████▋     | 74/157 [00:19<00:17,  4.62it/s] 48%|████▊     | 75/157 [00:19<00:17,  4.62it/s] 48%|████▊     | 76/157 [00:19<00:16,  4.97it/s] 49%|████▉     | 77/157 [00:19<00:17,  4.65it/s] 50%|████▉     | 78/157 [00:19<00:15,  5.04it/s] 50%|█████     | 79/157 [00:20<00:15,  5.13it/s] 51%|█████     | 80/157 [00:20<00:14,  5.26it/s] 52%|█████▏    | 81/157 [00:20<00:13,  5.45it/s] 52%|█████▏    | 82/157 [00:20<00:12,  5.79it/s] 53%|█████▎    | 83/157 [00:20<00:13,  5.63it/s] 54%|█████▎    | 84/157 [00:21<00:13,  5.29it/s] 54%|█████▍    | 85/157 [00:21<00:13,  5.43it/s] 55%|█████▍    | 86/157 [00:21<00:12,  5.50it/s] 55%|█████▌    | 87/157 [00:21<00:13,  5.23it/s] 56%|█████▌    | 88/157 [00:21<00:12,  5.36it/s] 57%|█████▋    | 89/157 [00:22<00:15,  4.51it/s] 57%|█████▋    | 90/157 [00:22<00:27,  2.43it/s] 58%|█████▊    | 91/157 [00:23<00:22,  2.96it/s] 59%|█████▊    | 92/157 [00:23<00:19,  3.37it/s] 59%|█████▉    | 93/157 [00:23<00:16,  3.79it/s] 60%|█████▉    | 94/157 [00:23<00:15,  4.07it/s] 61%|██████    | 95/157 [00:23<00:13,  4.56it/s] 61%|██████    | 96/157 [00:24<00:12,  4.96it/s] 62%|██████▏   | 97/157 [00:24<00:13,  4.58it/s] 62%|██████▏   | 98/157 [00:24<00:11,  4.93it/s] 63%|██████▎   | 99/157 [00:24<00:12,  4.78it/s] 64%|██████▎   | 100/157 [00:24<00:11,  5.12it/s] 64%|██████▍   | 101/157 [00:25<00:11,  4.98it/s] 65%|██████▍   | 102/157 [00:25<00:10,  5.27it/s] 66%|██████▌   | 103/157 [00:25<00:10,  5.36it/s] 66%|██████▌   | 104/157 [00:25<00:15,  3.39it/s] 67%|██████▋   | 105/157 [00:26<00:13,  3.99it/s] 68%|██████▊   | 106/157 [00:26<00:11,  4.51it/s] 68%|██████▊   | 107/157 [00:26<00:10,  4.79it/s] 69%|██████▉   | 108/157 [00:26<00:09,  5.15it/s] 69%|██████▉   | 109/157 [00:26<00:09,  5.06it/s] 70%|███████   | 110/157 [00:26<00:09,  4.93it/s] 71%|███████   | 111/157 [00:27<00:09,  5.07it/s] 71%|███████▏  | 112/157 [00:27<00:08,  5.36it/s] 72%|███████▏  | 113/157 [00:27<00:09,  4.84it/s] 73%|███████▎  | 114/157 [00:27<00:10,  4.23it/s] 73%|███████▎  | 115/157 [00:28<00:10,  3.91it/s] 74%|███████▍  | 116/157 [00:28<00:09,  4.34it/s] 75%|███████▍  | 117/157 [00:28<00:09,  4.44it/s] 75%|███████▌  | 118/157 [00:28<00:07,  4.88it/s] 76%|███████▌  | 119/157 [00:28<00:07,  5.10it/s] 76%|███████▋  | 120/157 [00:29<00:06,  5.38it/s] 77%|███████▋  | 121/157 [00:29<00:07,  5.08it/s] 78%|███████▊  | 122/157 [00:29<00:06,  5.35it/s] 78%|███████▊  | 123/157 [00:29<00:06,  5.65it/s] 79%|███████▉  | 124/157 [00:29<00:05,  5.58it/s] 80%|███████▉  | 125/157 [00:30<00:08,  3.58it/s] 80%|████████  | 126/157 [00:30<00:09,  3.30it/s] 81%|████████  | 127/157 [00:31<00:09,  3.13it/s] 82%|████████▏ | 128/157 [00:31<00:07,  3.67it/s] 82%|████████▏ | 129/157 [00:31<00:07,  3.99it/s] 83%|████████▎ | 130/157 [00:31<00:06,  4.39it/s] 83%|████████▎ | 131/157 [00:31<00:05,  4.93it/s] 84%|████████▍ | 132/157 [00:31<00:04,  5.00it/s] 85%|████████▍ | 133/157 [00:32<00:04,  5.21it/s] 85%|████████▌ | 134/157 [00:32<00:04,  5.21it/s] 86%|████████▌ | 135/157 [00:32<00:04,  5.38it/s] 87%|████████▋ | 136/157 [00:32<00:06,  3.47it/s] 87%|████████▋ | 137/157 [00:33<00:04,  4.03it/s] 88%|████████▊ | 138/157 [00:33<00:04,  4.62it/s] 89%|████████▊ | 139/157 [00:33<00:03,  4.90it/s] 89%|████████▉ | 140/157 [00:33<00:03,  5.45it/s] 90%|████████▉ | 141/157 [00:33<00:02,  5.41it/s] 90%|█████████ | 142/157 [00:33<00:02,  5.61it/s] 91%|█████████ | 143/157 [00:34<00:02,  5.58it/s] 92%|█████████▏| 144/157 [00:34<00:02,  5.61it/s] 92%|█████████▏| 145/157 [00:34<00:02,  5.98it/s] 93%|█████████▎| 146/157 [00:34<00:01,  6.11it/s] 94%|█████████▎| 147/157 [00:34<00:01,  5.89it/s] 94%|█████████▍| 148/157 [00:34<00:01,  5.83it/s] 95%|█████████▍| 149/157 [00:35<00:01,  5.81it/s] 96%|█████████▌| 150/157 [00:35<00:02,  2.90it/s] 96%|█████████▌| 151/157 [00:36<00:02,  2.92it/s] 97%|█████████▋| 152/157 [00:36<00:01,  3.50it/s] 97%|█████████▋| 153/157 [00:36<00:01,  3.76it/s] 98%|█████████▊| 154/157 [00:36<00:00,  4.24it/s] 99%|█████████▊| 155/157 [00:36<00:00,  4.39it/s] 99%|█████████▉| 156/157 [00:37<00:00,  4.69it/s]100%|██████████| 157/157 [00:37<00:00,  4.22it/s]
+CLIP-based Classifier Accuracy on CIFAR-100 Test Dadaset: 85.63%
+Precision: 0.8607
+Recall: 0.8563
+F1 Score: 0.8573
+Confusion matrix saved to results/test/confusion_matrix_7.png
+wandb: - 0.012 MB of 0.012 MB uploadedwandb: \ 0.012 MB of 0.012 MB uploadedwandb: | 0.012 MB of 0.012 MB uploadedwandb: / 0.012 MB of 0.012 MB uploadedwandb: - 0.012 MB of 0.012 MB uploadedwandb: \ 0.012 MB of 0.012 MB uploadedwandb: | 0.016 MB of 0.040 MB uploadedwandb: / 0.022 MB of 0.040 MB uploadedwandb: - 0.025 MB of 0.040 MB uploadedwandb: \ 0.025 MB of 0.040 MB uploadedwandb: | 0.025 MB of 0.040 MB uploadedwandb: / 0.025 MB of 0.040 MB uploadedwandb: - 0.025 MB of 0.040 MB uploadedwandb: \ 0.040 MB of 0.040 MB uploadedwandb: 
+wandb: Run history:
+wandb:  Accuracy ▁
+wandb:  F1 Score ▁
+wandb: Precision ▁
+wandb:    Recall ▁
+wandb: 
+wandb: Run summary:
+wandb:  Accuracy 85.63
+wandb:  F1 Score 0.85735
+wandb: Precision 0.86072
+wandb:    Recall 0.8563
+wandb: 
+wandb: 🚀 View run comfy-grass-68 at: https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification/runs/iiuju6ew
+wandb: ⭐️ View project at: https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240415_221802-iiuju6ew/logs

@@ -1,0 +1,182 @@
+The model you choosed is: results/fine-tune-best.pth
+Total number of parameters in model: 87900516
+Checking...
+Layer: encoder.class_embedding | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.positional_embedding | Size: torch.Size([50, 768]) | Type: torch.float32
+Layer: encoder.proj | Size: torch.Size([768, 512]) | Type: torch.float32
+Layer: encoder.conv1.weight | Size: torch.Size([768, 3, 32, 32]) | Type: torch.float32
+Layer: encoder.ln_pre.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.ln_pre.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.0.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.1.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.2.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.3.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.4.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.5.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.6.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.7.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.8.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.9.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.10.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.attn.in_proj_weight | Size: torch.Size([2304, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.attn.in_proj_bias | Size: torch.Size([2304]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.attn.out_proj.weight | Size: torch.Size([768, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.attn.out_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.ln_1.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.ln_1.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.mlp.c_fc.weight | Size: torch.Size([3072, 768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.mlp.c_fc.bias | Size: torch.Size([3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.mlp.c_proj.weight | Size: torch.Size([768, 3072]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.mlp.c_proj.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.ln_2.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.transformer.resblocks.11.ln_2.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.ln_post.weight | Size: torch.Size([768]) | Type: torch.float32
+Layer: encoder.ln_post.bias | Size: torch.Size([768]) | Type: torch.float32
+Layer: fc.weight | Size: torch.Size([100, 512]) | Type: torch.float32
+Layer: fc.bias | Size: torch.Size([100]) | Type: torch.float32
+All parameters are float32: True
+Files already downloaded and verified
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 157/157 [00:37<00:00,  4.22it/s]
+CLIP-based Classifier Accuracy on CIFAR-100 Test Dadaset: 85.63%
+Precision: 0.8607
+Recall: 0.8563
+F1 Score: 0.8573
+Confusion matrix saved to results/test/confusion_matrix_7.png

@@ -1,0 +1,28 @@
+2024-04-15 21:46:54,807 INFO    MainThread:6398 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-15 21:46:54,807 INFO    MainThread:6398 [wandb_setup.py:_flush():76] Configure stats pid to 6398
+2024-04-15 21:46:54,807 INFO    MainThread:6398 [wandb_setup.py:_flush():76] Loading settings from /data0/user/gsli/.config/wandb/settings
+2024-04-15 21:46:54,807 INFO    MainThread:6398 [wandb_setup.py:_flush():76] Loading settings from /data0/user/gsli/Classifiers-enhanced-by-pre-training/wandb/settings
+2024-04-15 21:46:54,807 INFO    MainThread:6398 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-15 21:46:54,807 INFO    MainThread:6398 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test.py', 'program_abspath': '/data0/user/gsli/Classifiers-enhanced-by-pre-training/test.py', 'program': 'test.py'}
+2024-04-15 21:46:54,808 INFO    MainThread:6398 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-15 21:46:54,808 INFO    MainThread:6398 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-15 21:46:54,808 INFO    MainThread:6398 [wandb_init.py:_log_setup():521] Logging user logs to /data0/user/gsli/Classifiers-enhanced-by-pre-training/wandb/run-20240415_214654-3hrh8agv/logs/debug.log
+2024-04-15 21:46:54,808 INFO    MainThread:6398 [wandb_init.py:_log_setup():522] Logging internal logs to /data0/user/gsli/Classifiers-enhanced-by-pre-training/wandb/run-20240415_214654-3hrh8agv/logs/debug-internal.log
+2024-04-15 21:46:54,808 INFO    MainThread:6398 [wandb_init.py:init():561] calling init triggers
+2024-04-15 21:46:54,808 INFO    MainThread:6398 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'zero_shot': True, 'model_pth': 'results/train-from-scratch-best.pth'}
+2024-04-15 21:46:54,808 INFO    MainThread:6398 [wandb_init.py:init():611] starting backend
+2024-04-15 21:46:54,808 INFO    MainThread:6398 [wandb_init.py:init():615] setting up manager
+2024-04-15 21:46:54,809 INFO    MainThread:6398 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-15 21:46:54,811 INFO    MainThread:6398 [wandb_init.py:init():623] backend started and connected
+2024-04-15 21:46:54,816 INFO    MainThread:6398 [wandb_init.py:init():715] updated telemetry
+2024-04-15 21:46:54,982 INFO    MainThread:6398 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-15 21:46:56,003 ERROR   MainThread:6398 [wandb_init.py:init():774] encountered error: The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+2024-04-15 21:46:56,371 ERROR   MainThread:6398 [wandb_init.py:init():1199] The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+Traceback (most recent call last):
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1181, in init
+    run = wi.init()
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 780, in init
+    raise error
+wandb.errors.AuthenticationError: The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+2024-04-15 21:46:57,374 WARNING MsgRouterThr:6398 [router.py:message_loop():77] message_loop has been closed

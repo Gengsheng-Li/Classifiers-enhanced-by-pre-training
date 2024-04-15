@@ -1,0 +1,49 @@
+2024-04-15 21:46:54,832 INFO    StreamThr :11650 [internal.py:wandb_internal():86] W&B internal server running at pid: 11650, started at: 2024-04-15 21:46:54.811282
+2024-04-15 21:46:54,833 DEBUG   HandlerThread:11650 [handler.py:handle_request():146] handle_request: status
+2024-04-15 21:46:54,833 INFO    WriterThread:11650 [datastore.py:open_for_write():87] open: /data0/user/gsli/Classifiers-enhanced-by-pre-training/wandb/run-20240415_214654-3hrh8agv/run-3hrh8agv.wandb
+2024-04-15 21:46:54,877 DEBUG   SenderThread:11650 [sender.py:send():379] send: header
+2024-04-15 21:46:54,983 DEBUG   SenderThread:11650 [sender.py:send():379] send: run
+2024-04-15 21:46:55,718 ERROR   SenderThread:11650 [internal_api.py:execute():373] 401 response executing GraphQL.
+2024-04-15 21:46:55,719 ERROR   SenderThread:11650 [internal_api.py:execute():374] {"errors":[{"message":"user is not logged in","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}
+2024-04-15 21:46:55,719 ERROR   SenderThread:11650 [sender.py:send_run():971] The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+Traceback (most recent call last):
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 969, in send_run
+    server_run = self._init_run(run, config_value_dict)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/internal/sender.py", line 1014, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 2217, in upsert_run
+    response = self.gql(
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/util.py", line 968, in check_retry_fn
+    return fallback_retry_fn(e)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/wandb/util.py", line 899, in no_retry_auth
+    raise AuthenticationError(
+wandb.errors.AuthenticationError: The API key you provided is either invalid or missing.  If the `WANDB_API_KEY` environment variable is set, make sure it is correct. Otherwise, to resolve this issue, you may try running the 'wandb login --relogin' command. If you are using a local server, make sure that you're using the correct hostname. If you're not sure, you can try logging in again using the 'wandb login --relogin --host [hostname]' command.(Error 401: Unauthorized)
+2024-04-15 21:46:56,373 DEBUG   HandlerThread:11650 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-15 21:46:56,373 INFO    HandlerThread:11650 [handler.py:finish():866] shutting down handler
+2024-04-15 21:46:56,986 INFO    WriterThread:11650 [datastore.py:close():296] close: /data0/user/gsli/Classifiers-enhanced-by-pre-training/wandb/run-20240415_214654-3hrh8agv/run-3hrh8agv.wandb
+2024-04-15 21:46:57,004 INFO    SenderThread:11650 [sender.py:finish():1546] shutting down sender

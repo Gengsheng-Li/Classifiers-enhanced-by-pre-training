@@ -1,0 +1,24 @@
+The model you choosed is: results/fine-tune-best.pth
+Total number of parameters in model: 87900516
+Files already downloaded and verified
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████▌| 151/157 [00:29<00:01,  5.59it/s]
+CLIP-based Classifier Accuracy on CIFAR-100 Test Dadaset: 85.63%
+Precision: 0.8607
+Recall: 0.8563
+
+100%|██████████| 157/157 [00:30<00:00,  5.21it/s]
+Confusion matrix saved to results/test/confusion_matrix_8.png

@@ -1,0 +1,10 @@
+wandb: Currently logged in as: ligengchengucd (BDIC-DMML-2024). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.16.6
+wandb: Run data is saved locally in /data0/user/gsli/Classifiers-enhanced-by-pre-training/wandb/run-20240415_115913-9o3qzmd0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run deep-fire-52
+wandb: ⭐️ View project at https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification
+wandb: 🚀 View run at https://wandb.ai/BDIC-DMML-2024/clip-linear-probe-classification/runs/9o3qzmd0
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [03:48<6:16:53, 228.42s/it]  2%|▏         | 2/100 [07:43<6:19:17, 232.22s/it]  3%|▎         | 3/100 [11:41<6:20:06, 235.12s/it]  4%|▍         | 4/100 [15:35<6:15:16, 234.55s/it]  5%|▌         | 5/100 [19:30<6:11:32, 234.66s/it]  6%|▌         | 6/100 [23:27<6:08:41, 235.34s/it]slurmstepd: error: *** JOB 22411 ON gpu01 CANCELLED AT 2024-04-15T12:25:05 ***

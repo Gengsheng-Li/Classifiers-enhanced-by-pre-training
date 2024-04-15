@@ -1,0 +1,19 @@
+The model you choosed is: results/train-from-scratch-best.pth
+Total number of parameters in model: 87900516
+Files already downloaded and verified
+
+
+
+
+
+
+
+
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 154/157 [00:19<00:00,  8.11it/s]
+CLIP-based Classifier Accuracy on CIFAR-100 Test Dadaset: 33.49%
+Precision: 0.3299
+Recall: 0.3349
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 157/157 [00:19<00:00,  7.91it/s]
+Confusion matrix saved to results/test/confusion_matrix_2.png

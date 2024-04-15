@@ -1,0 +1,20 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|          | 0/100 [00:00<?, ?it/s]
+Epoch: 0, Average Loss: 3.975435339985564, Trn Accuracy: 9.49%, lr: 5e-05
+
+
+  2%|▏         | 2/100 [07:43<6:19:17, 232.22s/it]
+Epoch: 1, Average Loss: 3.407272776094869, Trn Accuracy: 18.27%, lr: 4.998766400914329e-05
+
+  3%|▎         | 3/100 [11:41<6:20:06, 235.12s/it]
+Epoch: 2, Average Loss: 3.0440235236963145, Trn Accuracy: 24.55%, lr: 4.995066821070679e-05
+
+  4%|▍         | 4/100 [15:35<6:15:16, 234.55s/it]
+Epoch: 3, Average Loss: 2.742283539269298, Trn Accuracy: 30.44%, lr: 4.9889049115077005e-05
+
+  5%|▌         | 5/100 [19:30<6:11:32, 234.66s/it]
+Epoch: 4, Average Loss: 2.440342835344065, Trn Accuracy: 36.87%, lr: 4.9802867532861956e-05
+Average Val Loss: 2.8716188473037527, Val Accuracy: 29.13
+Epoch: 5, Average Loss: 2.0902776520092265, Trn Accuracy: 44.76%, lr: 4.969220851487845e-05
+

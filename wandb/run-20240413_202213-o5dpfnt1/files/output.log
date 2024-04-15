@@ -1,0 +1,53 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|          | 0/200 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "train_from_scratch.py", line 186, in <module>
+    main(args)
+  File "train_from_scratch.py", line 182, in main
+    training_validating_testing(classifier, criterion, optimizer, scheduler, trainloader, valloader, testloader)
+  File "train_from_scratch.py", line 78, in training_validating_testing
+    outputs = classifier(images)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/Classifiers-enhanced-by-pre-training/CLIPClassifier_model.py", line 12, in forward
+    embedding = self.encoder(x)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/Classifiers-enhanced-by-pre-training/clip/model.py", line 232, in forward
+    x = self.transformer(x)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/Classifiers-enhanced-by-pre-training/clip/model.py", line 203, in forward
+    return self.resblocks(x)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/Classifiers-enhanced-by-pre-training/clip/model.py", line 191, in forward
+    x = x + self.mlp(self.ln_2(x))
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data0/user/gsli/.conda/envs/test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data0/user/gsli/Classifiers-enhanced-by-pre-training/clip/model.py", line 168, in forward
+    return x * torch.sigmoid(1.702 * x)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 76.00 MiB. GPU 0 has a total capacty of 44.42 GiB of which 76.25 MiB is free. Process 1655842 has 37.44 GiB memory in use. Including non-PyTorch memory, this process has 6.90 GiB memory in use. Of the allocated memory 5.24 GiB is allocated by PyTorch, and 225.54 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
