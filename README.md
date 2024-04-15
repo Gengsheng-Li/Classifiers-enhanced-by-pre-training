@@ -13,7 +13,7 @@ Clone the repository and install the required dependencies:
 
 ```bash
 git clone <https://github.com/Gengsheng-Li/Classifiers-enhanced-by-pre-training.git>
-cd Classifiers-Enhanced-by-Pre-training
+cd Classifiers-enhanced-by-pre-training
 pip install -r requirements.txt
 ```
 
