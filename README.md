@@ -12,7 +12,7 @@ This is a project that builds image classifiers using the CLIP (ViT-B/32) visual
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone <https://github.com/Gengsheng-Li/Classifiers-enhanced-by-pre-training.git>
+git clone https://github.com/Gengsheng-Li/Classifiers-enhanced-by-pre-training.git
 cd Classifiers-enhanced-by-pre-training
 conda create -n classifier python=3.8
 conda activate classifier
