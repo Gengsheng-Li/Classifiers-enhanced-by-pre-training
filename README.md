@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 ## Equipment
 All code was run on under Linux with Slurm installed. 
+
 The acceleration device used was: 1x NVIDIA A40.
 
 ## Usage
