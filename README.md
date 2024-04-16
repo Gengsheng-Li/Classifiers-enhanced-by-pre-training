@@ -32,8 +32,11 @@ From https://huggingface.co/RyukiRi/Classifiers-Enhanced-by-Pre-training, you ca
 - `fine-tune-best.pth`: Best model weights after fine-tuning.
 - `linear-probe-best.pth`: Best model weights after the linear probe training.
 - `train-from-scratch-best.pth`: Best model weights trained from scratch.
+
 Please download these files and place them under the `results/` directory within the project folder.
+
 - `cifar-100-python.tar.gz`: CIFAR-100 dataset.
+
 Please download this file and place it under the `data/` directory within the project folder.
 
 ### Training the Model
