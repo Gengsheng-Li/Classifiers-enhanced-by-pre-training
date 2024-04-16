@@ -1,0 +1,1 @@
+The CIFAR-100 dataset will be automatically downloaded here if you run train_from_pretrain.py or tarin_from_scratch.py.

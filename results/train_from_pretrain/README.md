@@ -1,0 +1,1 @@
+The weights of the model during training will be automatically stored here if you run train_from_pretrain.py.

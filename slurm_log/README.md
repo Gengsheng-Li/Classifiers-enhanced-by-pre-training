@@ -1,0 +1,1 @@
+The log of slurm will be automatically stored here if you use sbatch to submit slurm task (e.g., run_test.slurm) in a Linux system.
