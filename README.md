@@ -26,6 +26,15 @@ The acceleration device used was: 1x NVIDIA A40.
 
 ## Usage
 
+### Download the Trained Models from Huggingface
+
+From https://huggingface.co/RyukiRi/Classifiers-Enhanced-by-Pre-training, you can download the following pre-trained model weights for running the `test.py` or `run_test.slurm`:
+- `fine-tune-best.pth`: Best model weights after fine-tuning.
+- `linear-probe-best.pth`: Best model weights after the linear probe training.
+- `train-from-scratch-best.pth`: Best model weights trained from scratch.
+
+Please download these files and place them in the `results/` directory within the project folder.
+
 ### Training the Model
 Choose one of the following commands to train the model, depending on your needs:
 
@@ -39,11 +48,57 @@ Choose one of the following commands to train the model, depending on your needs
   sbatch run_train_from_scratch.slurm
   ```
 
+If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
+
+- For Linear-probe or Fine-tuning modes, use the following command:
+  ```bash
+  python train_from_pretrain.py --train_mode 'fine-tune' \
+                            --lr 1e-6 \
+                            --epochs 100 \
+                            --batch_size 512 \
+                            --validation_split 0.2 \
+                            --save_path "results" \
+                            --exp_name "train_from_pretrain" \
+  ```
+  You can set --train_mode as 'fine-tune' or 'linear-probe' to perfome different training mode.
+
+- For Train-from-scratch mode, use the following command:
+  ```bash
+  python train_from_scratch.py --lr 5e-5 \
+                            --T_max 50 \
+                            --weight_decay 1e-4 \
+                            --epochs 100 \
+                            --batch_size 128 \
+                            --validation_split 0.2 \
+                            --save_path "results" \
+                            --exp_name "train_from_scratch"
+  ```
+
 ### Testing the Model
 To test the model, use the following command:
 ```bash
 sbatch run_test.slurm
 ```
+
+If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
+
+- For testing CLIP (ViT-B/32) zero-shot performance, use the following command:
+  ```bash
+  python test.py --zero_shot
+  ```
+
+- For testing performance of the results of train-from-scratch, linear-probe, or fine-tune, use the following commands please:
+  ```bash
+  python test.py --model_pth 'results/train-from-scratch-best.pth'
+
+  python test.py --model_pth 'results/linear-probe-best.pth'
+
+  python test.py --model_pth 'results/fine-tune-best.pth'
+  ```
+You can set --check_model to check the model you choosed and print some detailed info layer by layer, just like:
+  ```bash
+  python test.py --model_pth 'results/train-from-scratch-best.pth' --check_model
+  ```
 
 ## Contributing
 
