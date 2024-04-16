@@ -36,7 +36,7 @@ From https://huggingface.co/RyukiRi/Classifiers-Enhanced-by-Pre-training, you ca
 Please download these files and place them under the `results/` directory within the project folder.
 
 ### Training the Model
-1. If you are using Linux with Slurm installed, please choose one of the following commands to train the model, depending on your needs:
+If you are using Linux with Slurm installed, please choose one of the following commands to train the model, depending on your needs:
 
 - For Linear-probe or Fine-tuning modes, use the following command:
   ```bash
@@ -49,7 +49,8 @@ Please download these files and place them under the `results/` directory within
   ```
 Note: You need to change some arguments in these .slurm files to fit your need and device.
 
-2. If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
+
+If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
 
 - For Linear-probe or Fine-tuning modes, use the following command:
   ```bash
@@ -78,13 +79,14 @@ Note: You need to change some arguments in these .slurm files to fit your need a
 ### Testing the Model
 We evaluate the performance of classifiers from five perspectives, including `Accuracy`, `Precision`, `Recall`, `F1 Score`, and `Confusion matrix`. The following commands will calculate or draw them automatically.
 
-1. If you are using Linux with Slurm installed, use the following command:
+If you are using Linux with Slurm installed, use the following command:
 ```bash
 sbatch run_test.slurm
 ```
 Note: You need to change some arguments in this .slurm file to fit your need and device.
 
-2. If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
+
+If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
 
 - For testing CLIP (ViT-B/32) zero-shot performance, use the following command:
   ```bash
