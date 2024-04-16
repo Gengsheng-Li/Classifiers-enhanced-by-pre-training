@@ -36,7 +36,7 @@ From https://huggingface.co/RyukiRi/Classifiers-Enhanced-by-Pre-training, you ca
 Please download these files and place them under the `results/` directory within the project folder.
 
 ### Training the Model
-Choose one of the following commands to train the model, depending on your needs:
+If you are using Linux with Slurm installed, please choose one of the following commands to train the model, depending on your needs:
 
 - For Linear-probe or Fine-tuning modes, use the following command:
   ```bash
@@ -47,6 +47,7 @@ Choose one of the following commands to train the model, depending on your needs
   ```bash
   sbatch run_train_from_scratch.slurm
   ```
+Note: You need to change some arguments in these .slurm files to fit your need and device.
 
 If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
 
@@ -75,10 +76,13 @@ If you are using Windows or Linux without Slurm, you can also directly run follo
   ```
 
 ### Testing the Model
-To test the model, use the following command:
+We evaluate the performance of classifiers from five perspectives, including `Accuracy`, `Precision`, `Recall`, `F1 Score`, and `Confusion matrix`. The following commands will calculate or draw them automatically.
+
+If you are using Linux with Slurm installed, use the following command:
 ```bash
 sbatch run_test.slurm
 ```
+Note: You need to change some arguments in this .slurm file to fit your need and device.
 
 If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
 
