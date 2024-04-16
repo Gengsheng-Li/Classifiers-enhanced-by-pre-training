@@ -87,7 +87,7 @@ If you are using Windows or Linux without Slurm, you can also directly run follo
   python test.py --zero_shot
   ```
 
-- For testing performance of the results of train-from-scratch, linear-probe, or fine-tune, use the following commands please:
+- For testing performance of the results of Train-from-scratch, Linear-probe, or Fine-tune, use the following commands please:
   ```bash
   python test.py --model_pth 'results/train-from-scratch-best.pth'
 
@@ -95,7 +95,8 @@ If you are using Windows or Linux without Slurm, you can also directly run follo
 
   python test.py --model_pth 'results/fine-tune-best.pth'
   ```
-You can set --check_model to check the model you choosed and print some detailed info layer by layer, just like:
+  
+  You can set --check_model to check the model you choosed and print some detailed info layer by layer, just like:
   ```bash
   python test.py --model_pth 'results/train-from-scratch-best.pth' --check_model
   ```
