@@ -47,8 +47,7 @@ If you are using Linux with Slurm installed, please choose one of the following 
   ```bash
   sbatch run_train_from_scratch.slurm
   ```
-Note: You need to change some arguments in these .slurm files to fit your need and device.
-
+  Note: You need to change some arguments in these .slurm files to fit your need and device.
 
 If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
 
@@ -83,7 +82,7 @@ If you are using Linux with Slurm installed, use the following command:
 ```bash
 sbatch run_test.slurm
 ```
-Note: You need to change some arguments in this .slurm file to fit your need and device.
+  Note: You need to change some arguments in this .slurm file to fit your need and device.
 
 
 If you are using Windows or Linux without Slurm, you can also directly run following commands in cmd:
