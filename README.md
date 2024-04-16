@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## Equipment
-All code was run on under Linux with Slurm installed. 
+All code was run under Linux with Slurm installed. 
 
 The acceleration device used was: 1x NVIDIA A40.
 
@@ -28,12 +28,12 @@ The acceleration device used was: 1x NVIDIA A40.
 
 ### Download the Trained Models from Huggingface
 
-From https://huggingface.co/RyukiRi/Classifiers-Enhanced-by-Pre-training, you can download the following pre-trained model weights for running the `test.py` or `run_test.slurm`:
+From https://huggingface.co/RyukiRi/Classifiers-Enhanced-by-Pre-training, you can download the following trained model weights for running the `test.py` or `run_test.slurm`:
 - `fine-tune-best.pth`: Best model weights after fine-tuning.
 - `linear-probe-best.pth`: Best model weights after the linear probe training.
 - `train-from-scratch-best.pth`: Best model weights trained from scratch.
 
-Please download these files and place them in the `results/` directory within the project folder.
+Please download these files and place them under the `results/` directory within the project folder.
 
 ### Training the Model
 Choose one of the following commands to train the model, depending on your needs:
@@ -60,7 +60,7 @@ If you are using Windows or Linux without Slurm, you can also directly run follo
                             --save_path "results" \
                             --exp_name "train_from_pretrain" \
   ```
-  You can set --train_mode as 'fine-tune' or 'linear-probe' to perfome different training mode.
+  You can set `--train_mode` as 'fine-tune' or 'linear-probe' to perfome different training mode.
 
 - For Train-from-scratch mode, use the following command:
   ```bash
@@ -87,7 +87,7 @@ If you are using Windows or Linux without Slurm, you can also directly run follo
   python test.py --zero_shot
   ```
 
-- For testing performance of the results of Train-from-scratch, Linear-probe, or Fine-tune, use the following commands please:
+- For testing the performance of the results of Train-from-scratch, Linear-probe, or Fine-tune, use the following commands please:
   ```bash
   python test.py --model_pth 'results/train-from-scratch-best.pth'
 
@@ -95,8 +95,7 @@ If you are using Windows or Linux without Slurm, you can also directly run follo
 
   python test.py --model_pth 'results/fine-tune-best.pth'
   ```
-  
-  You can set --check_model to check the model you choosed and print some detailed info layer by layer, just like:
+  You can set `--check_model` to check the model you choosed and print some detailed info layer by layer, just like:
   ```bash
   python test.py --model_pth 'results/train-from-scratch-best.pth' --check_model
   ```
