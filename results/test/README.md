@@ -1,1 +1,1 @@
-The confusion matrix will be automatically stored here if you run test.py.
+The confusion matrix will be automatically stored here if you run test.py or run_test.slurm.

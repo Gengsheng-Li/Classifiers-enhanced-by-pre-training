@@ -1,1 +1,1 @@
-The weights of the model during training will be automatically stored here if you run tarin_from_scratch.py.
+The weights of the model during training will be automatically stored here if you run train_from_scratch.py or run_train_from_scratch.slurm.
