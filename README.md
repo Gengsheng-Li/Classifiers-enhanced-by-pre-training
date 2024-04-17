@@ -14,9 +14,8 @@ Clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/Gengsheng-Li/Classifiers-enhanced-by-pre-training.git
 cd Classifiers-enhanced-by-pre-training
-conda create -n classifier python=3.8
+conda env create -f environment.yml
 conda activate classifier
-pip install -r requirements.txt
 ```
 
 ## Equipment

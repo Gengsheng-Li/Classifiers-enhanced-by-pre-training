@@ -191,7 +191,7 @@ def main(args):
         output_path = os.path.join(output_dir, f'confusion_matrix_{file_count}.png')
         plt.savefig(output_path)
         plt.close()
-        print(f"Confusion matrix saved to {output_path}")
+        print(f"Confusion matrix is saved to {output_path}")
 
 
 if __name__ == '__main__':
